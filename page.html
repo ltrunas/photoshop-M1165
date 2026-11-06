@@ -2,12 +2,25 @@
 <html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Photoshop · apunts</title><link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script></head>
-<body><header class="site"><div><a href="index.html">Photoshop · M1165</a></div></header>
-<main><p><a href="sessio-6.html">← Sessió 6</a></p><article id="out">Carregant…</article></main>
+<body><div class="bar"><div class="in"><a class="brand" href="index.html"><span class="logo"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span> Fotografia digital · M1165</a><span class="sp"></span><a class="nav" href="index.html">Sessions</a></div></div>
+<main class="wrap"><div class="layout"><nav class="toc" id="toc"></nav><div><article id="out">Carregant…</article><div class="pager" id="pager"></div></div></div></main>
+<footer><a href="sessio-6.html">← Sessió 6</a></footer>
 <script>
+const ORDER=[['interficie','Interfície: els menús'],['resolucio','Resolució'],['navegacio-dreceres','Navegació i dreceres'],['capes','Les capes']];
 const p=(new URLSearchParams(location.search).get('p')||'').replace(/[^a-z0-9-]/g,'');
+const idx=ORDER.findIndex(o=>o[0]===p);
 fetch('md/'+p+'.md').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
-  document.getElementById('out').innerHTML=marked.parse(t);
-  const h=document.querySelector('#out h1'); if(h) document.title=h.textContent+' · Photoshop';
-}).catch(()=>{document.getElementById('out').textContent='No s\'ha trobat aquest apunt.'});
+  const out=document.getElementById('out');
+  out.innerHTML=marked.parse(t);
+  const h=out.querySelector('h1'); if(h) document.title=h.textContent+' · Photoshop';
+  const toc=document.getElementById('toc'); let html='<b>En aquesta pàgina</b>';
+  out.querySelectorAll('h2').forEach((e,i)=>{e.id='s'+i;html+='<a href="#s'+i+'">'+e.textContent+'</a>'});
+  toc.innerHTML=html;
+  const links=[...toc.querySelectorAll('a')], hs=[...out.querySelectorAll('h2')];
+  addEventListener('scroll',()=>{let k=0;hs.forEach((e,i)=>{if(e.getBoundingClientRect().top<120)k=i});links.forEach((a,i)=>a.classList.toggle('on',i===k))},{passive:true});
+  let pg='';
+  if(idx>0)pg+='<a href="page.html?p='+ORDER[idx-1][0]+'"><small>Anterior</small>'+ORDER[idx-1][1]+'</a>';
+  if(idx>=0&&idx<ORDER.length-1)pg+='<a class="next" href="page.html?p='+ORDER[idx+1][0]+'"><small>Següent</small>'+ORDER[idx+1][1]+'</a>';
+  document.getElementById('pager').innerHTML=pg;
+}).catch(()=>{document.getElementById('out').textContent="No s'ha trobat aquest apunt."});
 </script></body></html>

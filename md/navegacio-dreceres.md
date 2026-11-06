@@ -2,6 +2,12 @@
 
 Una **drecera** és una tecla o una combinació de tecles que fa una acció sense passar pel menú. A Mac, **Ctrl** passa a ser **Cmd** i **Alt** passa a ser **Opción**.
 
+## El teclat
+
+Cada lletra tria una eina: les blaves són les eines que farem servir al curs, les taronges són dreceres de suport i les blanques són altres eines.
+
+![Teclat de Photoshop: una lletra per eina](svg/teclat.svg)
+
 ## Navegar per la imatge: zoom i moure's
 
 Saber navegar per la imatge és molt important: quan retoquem, retallem o seleccionem, treballem sovint a molt zoom per veure els píxels i, a l'estona, tornem a veure la imatge sencera. Hi ha dues accions diferents que no s'han de confondre:
