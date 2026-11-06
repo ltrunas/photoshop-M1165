@@ -6,7 +6,7 @@
 <main class="wrap"><div class="layout"><nav class="toc" id="toc"></nav><div><article id="out">Carregant…</article><div class="pager" id="pager"></div></div></div></main>
 <footer><a href="sessio-6.html">← Sessió 6</a><p class="copy">© 2026 Laura Trunas. Tots els drets reservats. Pàgina i apunts elaborats per Laura Trunas.</p></footer>
 <script>
-const ORDER=[['interficie','Interfície: els menús'],['resolucio','Resolució'],['navegacio-dreceres','Navegació i dreceres'],['capes','Les capes'],['retalls','Retalls bàsics']];
+const ORDER=[['interficie','Interfície: els menús'],['resolucio','Resolució'],['navegacio-dreceres','Navegació i dreceres'],['capes','Les capes'],['retalls','Retalls bàsics'],['historia','El panell Historia']];
 const p=(new URLSearchParams(location.search).get('p')||'').replace(/[^a-z0-9-]/g,'');
 const idx=ORDER.findIndex(o=>o[0]===p);
 fetch('md/'+p+'.md').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
