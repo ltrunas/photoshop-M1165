@@ -99,6 +99,10 @@ Si no vols que Photoshop triï la capa per tu, desactiva la casella **Selec. aut
 
 Recorda-ho amb el **candau**: una capa bloquejada no es mou, ni que la selecció automàtica la triï.
 
+### El tauler d'escacs: què vol dir
+
+Quan una capa té zones buides, a la imatge es veu un **tauler d'escacs** (quadres grisos i blancs). No forma part de la imatge: indica que aquella zona és **transparent**, és a dir, que no hi ha res. És el mateix que passa en un **PNG** amb fons transparent: el fons no és blanc, és transparent.
+
 ## Tipus de capes
 
 No totes les capes són iguals. Les ens apareixen al panell amb una miniatura diferent segons el que contenen:
