@@ -94,7 +94,19 @@ Al panell **Historia** pots fer una **instantània** (*snapshot*) de l'estat act
 
 Serveix per **comparar**: fes la instantània de la imatge original (o d'un moment que t'agrada), segueix treballant i, quan vulguis veure què ha canviat, clica la instantània per tornar a veure aquell estat. Després clica l'últim pas de la llista per tornar als canvis. Així passes de l'**original** a la **versió modificada** i veus quins canvis s'han fet.
 
-La instantània es crea amb el botó de la càmera de fotos, a baix del panell Historia. Com l'historial, **es perd en tancar el document**.
+![Panell Historia: Instantánea 1 a dalt, la llista de passos i els tres botons de baix](img/panell-historia.png)
+
+A la captura es veu el panell: a dalt de tot, l'**estat inicial** del document (*Sin título-1*) i la **Instantánea 1**; a sota, la llista de passos (*Eliminar capa*, *Marco rectangular*, *Cortar píxeles*, *Mover*…). Quan tries la instantània, els passos posteriors es veuen **en gris**: són els que has deixat enrere, i els recuperes clicant l'últim pas.
+
+Els tres botons de baix del panell són:
+
+| Botó | Què fa |
+|---|---|
+| **Crear un documento nuevo a partir del estado actual** (primer botó) | Obre l'estat seleccionat com un document nou. |
+| **Crear una instantánea nueva** (la **càmera**, la fletxa de la captura) | Fa la instantània de l'estat actual. |
+| **Eliminar el estado actual** (paperera) | Esborra el pas o la instantània seleccionats. |
+
+Com l'historial, les instantànies **es perden en tancar el document**.
 
 ## Altres maneres de retallar
 
