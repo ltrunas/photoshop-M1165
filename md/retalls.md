@@ -108,6 +108,10 @@ Els tres botons de baix del panell són:
 
 Com l'historial, les instantànies **es perden en tancar el document**.
 
+## Guardar el treball: normalment en PSD
+
+Quan acabem, **guardarem normalment en PSD** (**Archivo > Guardar como**, **Ctrl + Maj + S**, **Cmd + Maj + S** a Mac). El PSD és el format propi de Photoshop i **conserva les capes**, la capa de fons duplicada, els retalls no destructius i tot el que has fet, així que pots reobrir-lo i seguir editant. Un JPG o un PNG no ho fa: només s'exporten al final, com a còpia per enviar o publicar.
+
 ## Altres maneres de retallar
 
 - **Imagen > Recortar:** retalla la imatge a la **selecció** activa. Primer fes una selecció amb l'eina Marco (M) i després tria l'ordre. Si no hi ha cap selecció, l'ordre està en gris.
@@ -132,4 +136,5 @@ Moltes vegades les dues coses es combinen: primer **retalles** per l'enquadramen
 - Deixa desmarcat **Borrar píxeles recortados** per treballar sense perdre res.
 - El panell **Historia** (Ventana > Historia) permet tornar a qualsevol pas.
 - Després de retallar, amb **V** (Mover) pots **reenquadrar** la imatge.
+- Guarda el treball en **PSD** per conservar les capes.
 - **Enderezar** serveix per arreglar horitzons torts.
