@@ -39,6 +39,8 @@ Ho pots comprovar amb el zoom: obre una foto i amplia-la amb l'eina **Zoom** (Z)
 
 Per això la resolució importa a Photoshop i no a Illustrator: si una imatge té pocs píxels, no se'n poden inventar de bons.
 
+![Bitmap i vectorial ampliats: el bitmap mostra els píxels, el vectorial es veu nítid](svg/bitmap-vectorial.svg)
+
 ## Relació entre píxels, ppp i mida impresa
 
 Com que els píxels de la imatge no canvien, la resolució decideix quina mida tindrà quan s'imprimeixi:
@@ -51,6 +53,8 @@ Per passar a centímetres, es multiplica per 2,54. Amb la mateixa imatge, **més
 |---|---|---|
 | 1080 × 1350 píxels (la peça de la sessió 1) | 38,1 × 47,6 cm | 9,1 × 11,4 cm |
 | 6000 × 4000 píxels (foto de càmera) | 211,7 × 141,1 cm | 50,8 × 33,9 cm |
+
+![Els mateixos píxels ocupen menys paper a 300 ppi](svg/mida-impresa.svg)
 
 Si vols fer el càlcul a la inversa, per imprimir a una mida concreta a 300 ppp, necessites uns **2480 × 3508 píxels** per a un full A4.
 
@@ -99,6 +103,8 @@ Hi ha dos llocs:
 - **Archivo > Nuevo:** quan crees el document, el camp **Resolución** fixa la resolució des del principi.
 - **Imagen > Tamaño de la imagen** (Alt + Ctrl + I): per canviar la mida i la resolució d'una imatge que ja existeix.
 
+![Finestra Tamaño de imagen amb Anchura, Altura, Resolución i el desplegable de Remuestrear](img/tamany-imatge.png)
+
 A la finestra Tamaño de la imagen veuràs **Anchura**, **Altura** i **Resolución**, i una casella clau, **Remuestrear**. Es pot triar la unitat de cada mida (Píxeles, Pulgadas, Centímetros).
 
 A dalt de la finestra també hi veus el **pes** de la imatge (a Tamaño de imagen, en MB) i les **Dimensiones** en píxels. Mira com canvia el pes quan actives Remuestrear i modifiques els píxels.
@@ -131,6 +137,8 @@ Atenció amb la paraula «mida»: pot voler dir la **mida impresa** (en cm) o el
 Com que els píxels nous s'han d'inventar a partir dels que ja existeixen, **Remuestrear no afegeix detall real**: el que fa és decidir de quina manera es calculen els píxels nous. Això ho tria el desplegable que apareix a la dreta de la casella Remuestrear, a Imagen > Tamaño de la imagen.
 
 ### Les opcions del desplegable
+
+![Desplegable de Remuestrear amb les vuit opcions i les seves dreceres](img/tamany-imatge.png)
 
 Els noms són els del desplegable de Photoshop en castellà. Les dreceres Opción + 1 a Opción + 8 (Alt + 1 a 8 a Windows) trien cada opció, en l'ordre de la llista.
 

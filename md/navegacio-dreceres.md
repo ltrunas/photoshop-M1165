@@ -37,6 +37,8 @@ Amb **Acercar** activat, si mantens premuda la tecla **Alt** (**Opción** a Mac)
 
 ### La barra d'opcions de l'eina Zoom
 
+![Barra d'opcions de l'eina Zoom: Acercar, Alejar, Zoom con arrastre, 100%, Ajustar pant. i Rellenar pant.](img/zoom-opcions.png)
+
 | Opció (a Photoshop) | Què fa |
 |---|---|
 | **Cambiar tamaño vent. para ajustar** | Quan fas zoom, la finestra del document s'adapta a la nova mida. |

@@ -4,6 +4,8 @@ Les **capes** (*layers*) són el que fa que Photoshop sigui un programa tan pote
 
 Això ens permet treballar sense risc: si retoquem, movem o esborrem una capa, les altres **no es modifiquen**. Per això, igual que a Illustrator, el panell de **Capas** és el més important de Photoshop: és on anirem treballant tota l'estona.
 
+![Les capes són fulls transparents apilats](svg/capes-apilades.svg)
+
 Amb les capes podem, per exemple:
 
 - Posar un **text** sobre una fotografia i canviar-lo després sense tocar la foto.
@@ -16,6 +18,8 @@ Amb les capes podem, per exemple:
 El panell **Capas** es troba normalment a **baix a la dreta** de l'espai de treball. Si no el veus, l'activem des del menú **Ventana > Capas** o amb la tecla **F7**.
 
 Cada capa apareix com una fila amb la seva **miniatura** i el seu **nombre**. Una capa que està més amunt del panell es veu per davant de les que té a sota.
+
+![Panell Capas amb Normal, Opacidad, Bloq., Relleno, l'ojo i la capa Fondo amb candau](img/panell-capas.png)
 
 ### Què hi ha a cada capa i a la part de dalt del panell
 
