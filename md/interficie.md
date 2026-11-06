@@ -296,7 +296,7 @@ Canvia **com mires** el document, sense modificar la imatge.
 | Extras | Ctrl + H | Amaga o mostra de cop les ajudes visuals |
 
 
-**Guías:** són línies d'ajuda per alinear elements. Primer s'activen les **regles** amb **Ctrl + R** (Cmd + R a Mac). Després, des d'una regla s'arrossega una guía cap al document, o es crea amb Ver > Nueva guía. Per amagar-les o tornar-les a mostrar, Ver > Mostrar > Guías (Ctrl + ; o Ctrl + H, Cmd + ; o Cmd + H a Mac). Les guíes no s'imprimeixen ni s'exporten.
+**Guías:** són línies d'ajuda per alinear elements. Primer s'activen les **regles** amb **Ctrl + R** (Cmd + R a Mac). Després, des d'una regla s'arrossega una guía cap al document, o es crea amb Ver > Nueva guía. Per amagar-les o tornar-les a mostrar, Ver > Mostrar > Guías (Ctrl + ; o Ctrl + H, Cmd + ; o Cmd + H a Mac). Les guíes no s'imprimeixen ni s'exporten. Per eliminar-ne una, selecciona-la i prem Suprimir (Borrar). Per eliminar-les totes, Ver > Borrar guías.
 
 **Modo de pantalla:** la tecla **F** canvia entre els modes de pantalla: l'estàndard, la pantalla completa amb barra de menú i la pantalla completa sense res més que la imatge. Serveix per veure la peça sense distraccions; torna a prémer F fins al mode estàndard (o Esc). Només funciona si no estàs escrivint amb l'eina Texto. També es tria a Ver > Modo de pantalla.
 
