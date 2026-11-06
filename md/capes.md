@@ -161,6 +161,7 @@ Aquestes són les accions que repetirem sempre. Quasi totes es troben al menú *
 | **Seleccionar** diverses capes | Clic mantenint **Ctrl** (una a una) o **Maj** (un tram) | — |
 | **Agrupar** capes | Seleccionar-les i **Capa > Agrupar capas** | **Ctrl + G** |
 | **Fusionar** amb la de sota | **Capa > Combinar hacia abajo** | **Ctrl + E** |
+| **Fusionar** diverses capes en una | Selecciona-les al panell i clic dret > **Combinar capas**, o **Capa > Combinar capas** | **Ctrl + E** (**Cmd + E** a Mac) |
 | **Esborrar** una capa | Seleccionar-la i botó **Eliminar capa**, o tecla **Suprimir** | **Supr** |
 | **Mostrar / amagar** | Clic a l'icona de l'**ojo** | — |
 
@@ -172,6 +173,7 @@ Les eines de Photoshop actuen **sempre sobre la capa seleccionada** (la que apar
 
 - **Duplica sempre la capa de fons** (Ctrl + J, Cmd + J a Mac) abans de començar a treballar. Així conserves l'original per si en algun moment vols tornar-hi, i treballes sobre la còpia.
 - Posa **noms clars** a les capes («Fons», «Text», «Ajust de color»…) i agrupa-les per ordenar el document.
+- Per **fusionar** diverses capes en una, selecciona-les al panell Capas (Ctrl/Cmd + clic) i usa el ratolí (clic dret > **Combinar capas**) o **Ctrl/Cmd + E**. Després ja no es poden separar.
 - **Fusiona** o aplana les capes només al final, quan ja no hagis de fer més canvis: després no es poden separar.
 - Treballa amb còpies i **capes de ajuste** per poder desfer qualsevol decisió.
 
