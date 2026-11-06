@@ -29,12 +29,30 @@ Quan l'eina Recortar està activa, la barra de dalt mostra les opcions:
 
 | Opció | Què fa |
 |---|---|
-| **Proporción** (desplegable) | Configura l'**aspect ratio** (la proporció) del marc, és a dir, quina forma té el retall: *Original*, *1:1* (quadrat), *4:5*, *16:9*… També hi ha *Anchura × Altura × Resolución* per retallar a una mida exacta, per exemple a 300 ppp per imprimir. *Sin restricciones* deixa el marc lliure. |
+| **Proporción** (desplegable) | Configura l'**aspect ratio** del marc, és a dir, quina forma té el retall. Veure la llista de sota. |
 | **Enderezar** | Dibuixes una línia sobre quelcom que hauria de ser recte (un horitzó, una paret) i Photoshop gira la imatge perquè quedi a nivell. |
 | **Superposición** (quadrícula) | Tria la guia visual del marc: regla de terços, quadrícula, diagonal… La **regla de terços** és la més útil per compondre. |
 | **Borrar píxeles recortados** (casella) | Si està **marcada**, el que retalles s'esborra definitivament. Si està **desmarcada**, el retall és **no destructiu**: els píxels de fora es conserven amagats i, tornant a activar Recortar, pots recuperar-los i canviar el marc. |
 
-Els noms exactes d'aquestes opcions poden canviar una mica segons la versió de Photoshop.
+### El desplegable Proporción
+
+Aquí tries la forma del retall. Les opcions són:
+
+![Desplegable Proporción de l'eina Recortar](img/recortar-proporcion.png)
+
+| Opció | Què vol dir |
+|---|---|
+| **Proporción** (marcada per defecte) | Marc **lliure**: el dibuixes de la forma que vulguis. |
+| **An. x Al. x Resolución** | Escrius l'ample, l'alt i la resolució: retalles a una **mida exacta**. |
+| **Proporción original** | Manté la proporció de la imatge d'origen. |
+| **1 : 1 (Cuadrado)** | Quadrat, com el de les xarxes socials. |
+| **4 : 5 (8 : 10)**, **5 : 7**, **2 : 3 (4 : 6)** | Proporcions de **foto impresa**; 4:5 també s'usa a Instagram. |
+| **16 : 9** | Format de pantalla, vídeo i presentacions. |
+| **Dimensiones** (4 x 5 pulg. 300 ppp, 1024 x 768 px 92 ppp…) | Mides ja preparades, amb la seva resolució. Les de **pulgadas i 300 ppp** són per imprimir; les de **px** per pantalla. |
+| **Nuevo ajuste preestablecido de recorte…** | Guarda una mida teva com a opció del menú. |
+| **Eliminar el ajuste preestablecido de recorte…** | Esborra una opció guardada per tu. |
+
+**Quina triar:** si ja saps on anirà la imatge (una foto impresa, una publicació quadrada, una pantalla), tria la proporció **abans** de retallar. Així no et sorprèn el format final.
 
 > **Recomanació:** deixa **desmarcada** la casella de borrar píxeles recortados. Així pots reajustar el retall en qualsevol moment i no perds imatge.
 
