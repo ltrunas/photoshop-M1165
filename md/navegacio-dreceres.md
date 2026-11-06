@@ -147,6 +147,7 @@ I tres dreceres de suport que van bé amb aquestes eines:
 |---|---|---|
 | **Nueva capa** | **Maj + Ctrl + N** | **Maj + Cmd + N** |
 | **Duplicar** la capa (o copiar la selecció a una capa nova) | **Ctrl + J** | **Cmd + J** |
+| **Duplicar** movent (amb l'eina Mover) | **Alt + arrossegar** | **Opción + arrossegar** |
 | Obrir o tancar el panell **Capas** | **F7** | **F7** |
 
 ## Trucs de teclat: tecles que es mantenen premudes

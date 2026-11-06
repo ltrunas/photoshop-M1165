@@ -151,7 +151,7 @@ Aquestes són les accions que repetirem sempre. Quasi totes es troben al menú *
 | Què vull fer | Com | Drecera (Windows) |
 |---|---|---|
 | **Crear** una capa nova | Botó **Crear una capa nueva** o **Capa > Nueva > Capa** | **Maj + Ctrl + N** |
-| **Duplicar** una capa | Clic dret sobre la capa > Duplicar capa, o arrossegar-la al botó de nova capa o **Capa > Duplicar capa** | **Ctrl + J** |
+| **Duplicar** una capa | Clic dret sobre la capa > Duplicar capa, o arrossegar-la al botó de nova capa o **Capa > Duplicar capa**. També: **Alt + arrossegar** amb Mover (**Opción** a Mac) | **Ctrl + J** |
 | **Canviar el nom** | Doble clic sobre el nom | — |
 | **Canviar l'ordre** | Arrossegar la capa amunt o avall al panell | — |
 | **Seleccionar** diverses capes | Clic mantenint **Ctrl** (una a una) o **Maj** (un tram) | — |
@@ -181,7 +181,9 @@ Per practicar tot això, farem una composició amb un fons i unes mans.
 
 ![Composició de referència: tres mans sobre un fons, amb quatre documents oberts i les capes HAND 01, 02 i 03](img/exercici-composicio.png)
 
-Per duplicar pots fer servir **Ctrl/Cmd + J** (dins del mateix document) o **clic dret sobre la capa > Duplicar capa**. Aquesta segona opció obre una finestra que et pregunta el **destino** (el document on vols enviar la còpia), i serveix per passar una capa d'un lienzo a un altre quan en tens diversos oberts.
+**Duplicar mentre mous (el més ràpid):** amb la capa seleccionada i l'eina **Mover** (**V**), mantén premuda **Alt** (**Opción** a Mac) i arrossega l'element: Photoshop **crea una còpia automàticament** i tu mous la còpia, deixant l'original al lloc. Cal tenir la capa seleccionada (o la *Selec. automática* activada) perquè mogui la capa correcta.
+
+Per duplicar també pots fer servir **Ctrl/Cmd + J** (dins del mateix document) o **clic dret sobre la capa > Duplicar capa**. Aquesta segona opció obre una finestra que et pregunta el **destino** (el document on vols enviar la còpia), i serveix per passar una capa d'un lienzo a un altre quan en tens diversos oberts.
 
 A la imatge de referència, el document del fons té les capes del fons i de les tres mans, cadascuna amb el seu nom: així pots ordenar-te i canviar-ne la posició sense tocar les altres.
 
