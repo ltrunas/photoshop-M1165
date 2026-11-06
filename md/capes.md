@@ -133,6 +133,20 @@ Les eines de Photoshop actuen **sempre sobre la capa seleccionada** (la que apar
 - **Fusiona** o aplana les capes només al final, quan ja no hagis de fer més canvis: després no es poden separar.
 - Treballa amb còpies i **capes de ajuste** per poder desfer qualsevol decisió.
 
+## Exercici: composició amb capes duplicades
+
+Per practicar tot això, farem una composició amb un fons i unes mans.
+
+1. **Descarrega de Moodle** el contingut: la imatge del **fons** i les imatges de les **mans**.
+2. Obre-les a Photoshop: cada imatge s'obre en un **lienzo** (document) diferent.
+3. Fes la **composició** duplicant les capes: porta cada mà al document del fons i col·loca-la amb l'eina **Mover**.
+
+![Composició de referència: tres mans sobre un fons, amb quatre documents oberts i les capes HAND 01, 02 i 03](img/exercici-composicio.png)
+
+Per duplicar pots fer servir **Ctrl/Cmd + J** (dins del mateix document) o **clic dret sobre la capa > Duplicar capa**. Aquesta segona opció obre una finestra que et pregunta el **destino** (el document on vols enviar la còpia), i serveix per passar una capa d'un lienzo a un altre quan en tens diversos oberts.
+
+A la imatge de referència, el document del fons té les capes del fons i de les tres mans, cadascuna amb el seu nom: així pots ordenar-te i canviar-ne la posició sense tocar les altres.
+
 ## Per recordar
 
 - El panell **Capas** (**F7**) és on treballem: cada capa és un full transparent apilat sobre els altres.
