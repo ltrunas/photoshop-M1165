@@ -88,6 +88,14 @@ El panell **Historia** és molt important, no només per retallar: apunta **cada
 - **Ctrl + Z** (Cmd + Z a Mac) desfà l'últim pas, i **Ctrl + Maj + Z** (Cmd + Maj + Z) el refà. Amb el panell Historia pots saltar molts passos de cop.
 - El panell guarda un **nombre limitat de passos**, i l'historial **es perd en tancar el document**. Per conservar una versió que t'agrada, guarda el fitxer.
 
+### Instantània: comparar l'original amb els canvis
+
+Al panell **Historia** pots fer una **instantània** (*snapshot*) de l'estat actual de la imatge. Es col·loca **a dalt de tot del panell**, per sobre de la llista de passos, i es queda allà tot el temps.
+
+Serveix per **comparar**: fes la instantània de la imatge original (o d'un moment que t'agrada), segueix treballant i, quan vulguis veure què ha canviat, clica la instantània per tornar a veure aquell estat. Després clica l'últim pas de la llista per tornar als canvis. Així passes de l'**original** a la **versió modificada** i veus quins canvis s'han fet.
+
+La instantània es crea amb el botó de la càmera de fotos, a baix del panell Historia. Com l'historial, **es perd en tancar el document**.
+
 ## Altres maneres de retallar
 
 - **Imagen > Recortar:** retalla la imatge a la **selecció** activa. Primer fes una selecció amb l'eina Marco (M) i després tria l'ordre. Si no hi ha cap selecció, l'ordre està en gris.
