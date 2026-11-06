@@ -34,6 +34,14 @@ Quan l'eina Recortar està activa, la barra de dalt mostra les opcions:
 | **Superposición** (quadrícula) | Tria la guia visual del marc: regla de terços, quadrícula, diagonal… La **regla de terços** és la més útil per compondre. |
 | **Borrar píxeles recortados** (casella) | Si està **marcada**, el que retalles s'esborra definitivament. Si està **desmarcada**, el retall és **no destructiu**: els píxels de fora es conserven amagats i, tornant a activar Recortar, pots recuperar-los i canviar el marc. |
 
+### Els números i el botó d'intercanviar
+
+Quan tries una proporció (a la captura, **5 : 7**), a la dreta apareixen dues caselles amb els números: l'**amplada** i l'**alçada**. Entre les dues hi ha el **botó de les dues fletxes**, que **intercanvia l'alçada per l'amplada**: serveix per passar el retall de **horitzontal a vertical** (o al revés) sense haver de tornar a triar la proporció. També ho fa la tecla **X**.
+
+![Les caselles de proporció, el botó d'intercanviar, Borrar i Enderezar](img/recortar-intercanviar.png)
+
+Al costat hi ha el botó **Borrar**, que buida les caselles perquè tornis a començar. No el confonguis amb la casella *Borrar píxeles recortados*: aquest botó només neteja els números. A la dreta, **Enderezar**, que ja hem vist.
+
 ### El desplegable Proporción
 
 Aquí tries la forma del retall. Les opcions són:
