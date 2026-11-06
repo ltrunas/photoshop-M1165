@@ -78,6 +78,16 @@ Per això, després de retallar, podem **reenquadrar**:
 
 **Important:** això només funciona si la casella **Borrar píxeles recortados** de la barra de opciones està **desmarcada**. Si està marcada, el que queda fora s'esborra de debò.
 
+## El panell Historia: tornar a un punt concret
+
+El panell **Historia** és molt important, no només per retallar: apunta **cada acció** que fas al document (un retall, una pinzellada, un ajust…) com una llista de passos. Serveix per **tornar a un punt concret** del treball.
+
+- S'obre amb **Ventana > Historia**.
+- Clica un pas de la llista i la imatge torna a **l'estat que tenia en aquell moment**. Si no t'agrada, clica el darrer pas i tornes on eres.
+- Si després de tornar enrere fas una acció nova, els passos de darrere s'esborren. Per això, abans de provar una cosa nova, mira bé on ets.
+- **Ctrl + Z** (Cmd + Z a Mac) desfà l'últim pas, i **Ctrl + Maj + Z** (Cmd + Maj + Z) el refà. Amb el panell Historia pots saltar molts passos de cop.
+- El panell guarda un **nombre limitat de passos**, i l'historial **es perd en tancar el document**. Per conservar una versió que t'agrada, guarda el fitxer.
+
 ## Altres maneres de retallar
 
 - **Imagen > Recortar:** retalla la imatge a la **selecció** activa. Primer fes una selecció amb l'eina Marco (M) i després tria l'ordre. Si no hi ha cap selecció, l'ordre està en gris.
@@ -100,5 +110,6 @@ Moltes vegades les dues coses es combinen: primer **retalles** per l'enquadramen
 - Confirma amb **Intro**, cancel·la amb **Esc**.
 - Tria la **Proporción** abans de retallar si ja saps el format final.
 - Deixa desmarcat **Borrar píxeles recortados** per treballar sense perdre res.
+- El panell **Historia** (Ventana > Historia) permet tornar a qualsevol pas.
 - Després de retallar, amb **V** (Mover) pots **reenquadrar** la imatge.
 - **Enderezar** serveix per arreglar horitzons torts.
