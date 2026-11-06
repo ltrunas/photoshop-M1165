@@ -4,6 +4,8 @@
 
 ![L'eina Recortar i el seu marc](svg/retall.svg)
 
+> **Abans de retallar, duplica la capa de fons** (**Ctrl + J**, **Cmd + J** a Mac). Així sempre pots tornar a la imatge original si en algun moment la vols recuperar. Retalla i treballa sobre la còpia.
+
 ## L'eina Recortar
 
 - Es tria al panell d'eines (**Herramientas**), a la barra de l'esquerra: la icona té forma de **marc**. També amb la tecla **C**.
@@ -93,6 +95,7 @@ Moltes vegades les dues coses es combinen: primer **retalles** per l'enquadramen
 
 ## Per recordar
 
+- **Duplica la capa de fons** abans de començar, per poder tornar a l'original.
 - L'eina Recortar és la **C**.
 - Confirma amb **Intro**, cancel·la amb **Esc**.
 - Tria la **Proporción** abans de retallar si ja saps el format final.

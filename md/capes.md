@@ -166,6 +166,7 @@ Les eines de Photoshop actuen **sempre sobre la capa seleccionada** (la que apar
 
 ### Consells
 
+- **Duplica sempre la capa de fons** (Ctrl + J, Cmd + J a Mac) abans de començar a treballar. Així conserves l'original per si en algun moment vols tornar-hi, i treballes sobre la còpia.
 - Posa **noms clars** a les capes («Fons», «Text», «Ajust de color»…) i agrupa-les per ordenar el document.
 - **Fusiona** o aplana les capes només al final, quan ja no hagis de fer més canvis: després no es poden separar.
 - Treballa amb còpies i **capes de ajuste** per poder desfer qualsevol decisió.
