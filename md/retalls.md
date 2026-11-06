@@ -56,6 +56,18 @@ Aquí tries la forma del retall. Les opcions són:
 
 > **Recomanació:** deixa **desmarcada** la casella de borrar píxeles recortados. Així pots reajustar el retall en qualsevol moment i no perds imatge.
 
+## Retall no destructiu: reenquadrar després
+
+Quan premem **Intro**, la imatge es **retalla**. Però aquesta eina és **no destructiva**: els canvis **no són definitius**. Photoshop guarda els píxels que han quedat fora del marc, només que no es veuen.
+
+Per això, després de retallar, podem **reenquadrar**:
+
+1. Tria l'eina **Mover** amb la tecla **V**.
+2. Arrossega la imatge dins del llenç per **canviar l'enquadrament**: apareixen parts que havien quedat fora.
+3. També pots tornar a l'eina **Recortar** (**C**) i el marc anterior reapareix perquè el canviïs.
+
+**Important:** això només funciona si la casella **Borrar píxeles recortados** de la barra de opciones està **desmarcada**. Si està marcada, el que queda fora s'esborra de debò.
+
 ## Altres maneres de retallar
 
 - **Imagen > Recortar:** retalla la imatge a la **selecció** activa. Primer fes una selecció amb l'eina Marco (M) i després tria l'ordre. Si no hi ha cap selecció, l'ordre està en gris.
@@ -77,4 +89,5 @@ Moltes vegades les dues coses es combinen: primer **retalles** per l'enquadramen
 - Confirma amb **Intro**, cancel·la amb **Esc**.
 - Tria la **Proporción** abans de retallar si ja saps el format final.
 - Deixa desmarcat **Borrar píxeles recortados** per treballar sense perdre res.
+- Després de retallar, amb **V** (Mover) pots **reenquadrar** la imatge.
 - **Enderezar** serveix per arreglar horitzons torts.
