@@ -78,7 +78,7 @@ Per navegar fem servir sempre la **Mano**. Si arrossegues amb Mover sense voler,
 | Moure la vista temporalment | **Espacio** premut + arrossegar | **Espacio** premut + arrossegar |
 | Canviar el **modo de pantalla** (pantalla completa) | **F** | **F** |
 | Mostrar o amagar les **reglas** | **Ctrl + R** | **Cmd + R** |
-| Mostrar o amagar les **guías** | **Ctrl + ;** | **Cmd + ;** |
+| Mostrar o amagar les **guías** | **Ctrl + ;** o **Ctrl + H** | **Cmd + ;** o **Cmd + H** |
 | Obrir o tancar el panell **Capas** | **F7** | **F7** |
 
 Per arrossegar una **guía** a la imatge cal tenir les **reglas** visibles: primer **Ctrl/Cmd + R** i després arrossega des de la regla cap a dins de la imatge.
