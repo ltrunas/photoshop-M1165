@@ -62,6 +62,23 @@ Un exemple pràctic: si tens activada la **selección automática** amb l'eina *
 
 Per això la capa **Fondo** surt amb un candau: Photoshop la protegeix per defecte. Per treure'l, clica al candau.
 
+### Selecció automàtica de capes: Capa o Grupo
+
+Quan tries l'eina **Mover** (**V**), a la barra d'opcions de dalt hi ha la casella **Selec. automática** i, al costat, un desplegable amb dues opcions:
+
+![Desplegable de la Selec. automática amb les opcions Grupo i Capa](img/selec-automatica.png)
+
+| Opció | Què passa quan cliques a la imatge |
+|---|---|
+| **Capa** | Photoshop selecciona la **capa individual** que hi ha sota el cursor. Si mous, només es mou aquella capa. |
+| **Grupo** | Photoshop selecciona el **grup** sencer que conté aquella capa. Si mous, es mouen **totes les capes del grup** a la vegada. |
+
+Així, amb **Capa** pots agafar un element concret, i amb **Grupo** mous diversos elements junts sense haver-los de seleccionar un per un. Per això és útil agrupar les capes (**Ctrl/Cmd + G**).
+
+Si no vols que Photoshop triï la capa per tu, desactiva la casella **Selec. automática**: llavors el Mover només mou la capa que tinguis seleccionada al panell **Capas**. També pots mantenir premut **Ctrl** (**Cmd** a Mac) mentre cliques per triar la capa de manera temporal.
+
+Recorda-ho amb el **candau**: una capa bloquejada no es mou, ni que la selecció automàtica la triï.
+
 ## Tipus de capes
 
 No totes les capes són iguals. Les ens apareixen al panell amb una miniatura diferent segons el que contenen:
