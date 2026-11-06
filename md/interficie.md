@@ -4,7 +4,7 @@ Guia de referència per saber on és cada cosa a Photoshop: què fa cada menú d
 
 ## Com llegir aquests apunts
 
-A dalt de la pantalla hi ha la **barra de menú**, amb una paraula per cada grup d'ordres: Archivo, Edición, Imagen, Capa, Texto, Selección, Filtro, Ver, Ventana i Ayuda. Aquests apunts van menú per menú, de l'esquerra a la dreta, i expliquen les opcions que faràs servir al principi.
+A dalt de la pantalla hi ha la **barra de menú**, amb una paraula per cada grup d'ordres: Archivo, Edición, Imagen, Capa, Texto, Selección, Filtro, Vista, Ventana i Ayuda. Aquests apunts van menú per menú, de l'esquerra a la dreta, i expliquen les opcions que faràs servir al principi.
 
 - **Dreceres:** les dono per a Windows. A Mac, Ctrl s'escriu Cmd i Alt s'escriu Opció.
 - **Noms en castellà:** són els que surten al programa de l'aula. Segons la versió de Photoshop, alguna opció pot canviar de lloc o de nom; si no la trobes, usa el cercador del programa (la lupa de dalt a la dreta).
@@ -23,7 +23,7 @@ Cada menú és un mòdul independent d'aquests apunts: el trobaràs més avall a
 | **Texto** | Fonts i format del text | Quan afegim títols |
 | **Selección** | Canviar la selecció i refinar vores de màscara | En retallar i retocar |
 | **Filtro** | Difuminar, afegir soroll i altres efectes | En efectes i retoc |
-| **Ver** | Zoom, regles i guies | Constantment |
+| **Vista** | Zoom, regles i guies | Constantment |
 | **Ventana** | Panells i espai de treball | Quan falta un panell o canviem de tasca |
 | **Ayuda** | Ajuda oficial i cercador | Quan no trobem una opció |
 | **Plugins i 3D** | Complements; 3D | De moment, no |
@@ -35,6 +35,8 @@ Igual que a Illustrator, a Photoshop hi ha dues zones que faràs servir sempre. 
 
 - **Panell d'eines (Herramientas), a l'esquerra:** les eines que farem servir: Mover, Marco, Lazo, Recortar, Pincel, Borrador, Texto, Zoom, Mano… Les icones amb un triangle petit a la cantonada amaguen més eines: clic mantingut per veure-les. Quan tries una eina, la barra de opciones (sota el menú) canvia i mostra les seves opcions.
 - **Panell Capas, a baix a la dreta:** és el més important. Hi ha totes les capes del document apilades: la de dalt es veu per sobre de les altres. Aquí és on anirem treballant: triar la capa activa, amagar-la amb l'ull, bloquejar-la amb el cadenat, canviar-ne l'ordre arrossegant-la i posar-li nom.
+
+![Panell d'eines (Herramientas) de Photoshop](img/eines-toolbar.png)
 
 **Abans de fer res, comprova quina capa està activa al panell Capas.** És l'error més comú de l'inici: pintes o mous una cosa a la capa equivocada.
 
@@ -57,6 +59,10 @@ Si el panell Capas no es veu, obre'l amb **Ventana > Capas** (F7). L'ordre dels 
 
 Un espai de treball és una combinació de panells guardada, amb la seva posició a la pantalla. No cal treballar sempre amb el mateix: el més útil és triar o crear el que s'adapti al que estem fent en cada moment.
 
+A dalt a la dreta, a la barra d'opcions, hi ha la icona de l'espai de treball: és un accés ràpid per canviar-lo.
+
+![Icona de l'espai de treball, a dalt a la dreta](img/espacio-trabajo-icona.png)
+
 - **Triar un espai ja preparat:** Ventana > Espacio de trabajo. Photoshop en porta de preparats, com Fundamentos (o el nom equivalent a la teva versió), Fotografía, Pintura, Gráficos y web i Movimiento.
 - **Quin triar:** Fundamentos per començar. Fotografía quan fem retoc de pell i color. Pintura quan treballem amb pinzells.
 - **Crear el teu:** col·loca els panells on et convingui (arrossega la pestanya d'un panell) i tanca els que no facis servir. Després, Ventana > Espacio de trabajo > Nuevo espacio de trabajo i posa-li un nom.
@@ -65,6 +71,8 @@ Un espai de treball és una combinació de panells guardada, amb la seva posici�
 El panell **Capas** és l'únic que vols tenir sempre visible, sigui quin sigui l'espai que triïs.
 
 ## Archivo: crear, obrir, guardar, exportar i imprimir
+
+![Menú Archivo](img/menu-archivo.png)
 
 Aquest menú gestiona els fitxers: tot el que passa abans de començar a editar (crear o obrir) i després d'acabar (guardar, exportar, imprimir).
 
@@ -109,6 +117,8 @@ La finestra mostra una vista prèvia del full i deixa triar la impressora, el no
 
 ## Edición: Rellenar, Purgar, Ajustes de color i més
 
+![Menú Edición](img/menu-edicion.png)
+
 Aquest menú té les ordres d'edició de sempre (desfer, copiar, enganxar), les de transformació i els ajustos del programa.
 
 | Opció | Drecera | Què fa |
@@ -148,6 +158,8 @@ Photoshop guarda a la memòria els passos que has fet (Historial), el que has co
 Aquest menú **no** serveix per canviar els colors d'una imatge. Defineix com Photoshop interpreta i mostra el color (per exemple, quin espai RGB i quin CMYK fa servir). De moment, deixa-ho tal com està. Per canviar el color d'una foto, usa **Imagen > Ajustes** (vegeu el menú Imagen).
 
 ## Imagen: mida, color i ajustos
+
+![Menú Imagen](img/menu-imagen.png)
 
 Aquest menú canvia la imatge sencera: la mida, el mode de color i la correcció de llum i color.
 
@@ -194,6 +206,8 @@ Si en comptes de la mida del document busques les **mesas de trabajo** (diverses
 
 ## Capa: el cor de Photoshop
 
+![Menú Capa](img/menu-capa.png)
+
 Una capa és com un full transparent apilat sobre els altres: el que dibuixes en una no toca el que hi ha a les altres. Aquest menú crea i organitza capes; el panell **Capas** (Ventana > Capas) mostra el mateix en versió visual.
 
 | Opció | Drecera | Què fa |
@@ -232,6 +246,8 @@ Si redueixes una imatge normal i després l'amplies, perds qualitat. Si la conve
 
 ## Texto
 
+![Menú Texto](img/menu-texto.png)
+
 Gestiona el text escrit amb l'eina Texto (T). La majoria de canvis es fan al panell Carácter i al panell Párrafo, que s'obren des d'aquí.
 
 Les **fonts** (les lletres) es trien al panell Carácter o a la barra d'opcions quan tens activa l'eina Texto.
@@ -247,6 +263,8 @@ Les **fonts** (les lletres) es trien al panell Carácter o a la barra d'opcions 
 
 
 ## Selección
+
+![Menú Selección](img/menu-seleccion.png)
 
 Tot el que fas amb les eines de selecció (Marco, Lazo, Selección de objetos) es retoca des d'aquí. Una selecció limita on actua el que fas després (omplir, pintar, aplicar un efecte).
 
@@ -267,6 +285,8 @@ Tot el que fas amb les eines de selecció (Marco, Lazo, Selección de objetos) e
 
 ## Filtro
 
+![Menú Filtro](img/menu-filtro.png)
+
 Aplica efectes a una capa o a una selecció. Atenció: un filtre normal modifica els píxels de manera definitiva. Per poder canviar-lo després, converteix primer la capa en objecte intel·ligent (Filtro > Convertir para filtros inteligentes).
 
 | Opció | Drecera | Què fa |
@@ -281,7 +301,9 @@ Aplica efectes a una capa o a una selecció. Atenció: un filtre normal modifica
 | Neural Filters |  | Filtres amb intel·ligència artificial per a retrat i color |
 
 
-## Ver
+## Vista
+
+![Menú Vista](img/menu-vista.png)
 
 Canvia **com mires** el document, sense modificar la imatge.
 
@@ -296,11 +318,13 @@ Canvia **com mires** el document, sense modificar la imatge.
 | Extras | Ctrl + H | Amaga o mostra de cop les ajudes visuals |
 
 
-**Guías:** són línies d'ajuda per alinear elements. Primer s'activen les **regles** amb **Ctrl + R** (Cmd + R a Mac). Després, des d'una regla s'arrossega una guía cap al document, o es crea amb Ver > Nueva guía. Per amagar-les o tornar-les a mostrar, Ver > Mostrar > Guías (Ctrl + ; o Ctrl + H, Cmd + ; o Cmd + H a Mac). Les guíes no s'imprimeixen ni s'exporten. Per eliminar-ne una, selecciona-la i prem Suprimir (Borrar). Per eliminar-les totes, Ver > Borrar guías.
+**Guías:** són línies d'ajuda per alinear elements. Primer s'activen les **regles** amb **Ctrl + R** (Cmd + R a Mac). Després, des d'una regla s'arrossega una guía cap al document, o es crea amb Vista > Guías > Nueva guía. Per amagar-les o tornar-les a mostrar, Vista > Mostrar > Guías (Ctrl + ; o Ctrl + H, Cmd + ; o Cmd + H a Mac). Les guíes no s'imprimeixen ni s'exporten. Per eliminar-ne una, selecciona-la i prem Suprimir (Borrar). Per eliminar-les totes, Vista > Guías > Borrar guías.
 
-**Modo de pantalla:** la tecla **F** canvia entre els modes de pantalla: l'estàndard, la pantalla completa amb barra de menú i la pantalla completa sense res més que la imatge. Serveix per veure la peça sense distraccions; torna a prémer F fins al mode estàndard (o Esc). Només funciona si no estàs escrivint amb l'eina Texto. També es tria a Ver > Modo de pantalla.
+**Modo de pantalla:** la tecla **F** canvia entre els modes de pantalla: l'estàndard, la pantalla completa amb barra de menú i la pantalla completa sense res més que la imatge. Serveix per veure la peça sense distraccions; torna a prémer F fins al mode estàndard (o Esc). Només funciona si no estàs escrivint amb l'eina Texto. També es tria a Vista > Modo de pantalla.
 
 ## Ventana
+
+![Menú Ventana](img/menu-ventana.png)
 
 Aquí es controla què es veu a la pantalla: panells i espai de treball.
 
@@ -319,13 +343,21 @@ Aquí es controla què es veu a la pantalla: panells i espai de treball.
 | Herramientas, Opciones |  | Mostren o amaguen la barra d'eines i la barra d'opcions, si les has amagat sense voler |
 
 
+Els panells que no estan oberts queden replegats com a icones en una columna al costat dels panells oberts (a la imatge, Histograma i Navegador). Clica una icona per obrir-ne el panell.
+
+![Panells replegats com a icones, al costat de Histograma i Navegador](img/panells-icones.png)
+
 **Activar i desactivar panells:** des de Ventana pots mostrar o amagar els panells segons el que estiguem fent. Activa només el que necessitis, com **Línea de tiempo** (animació i vídeo) o **Muestras** (colors preparats), i desactiva'l quan acabis. Així la pantalla queda neta i el panell Capas té més espai.
 
 ## Ayuda
 
+![Menú Ayuda](img/menu-ayuda.png)
+
 Accés a l'ajuda oficial d'Adobe, a l'estat del compte i a les actualitzacions del programa. Quan no trobis una opció, comença pel cercador del programa.
 
 ## Plugins i 3D
+
+![Menú Plugins](img/menu-plugins.png)
 
 Permet instal·lar complements. No cal fer-lo servir al principi. 3D: ja veurem si el fem servir; a les versions recents pot no aparèixer.
 

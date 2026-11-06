@@ -65,3 +65,4 @@ footer{text-align:center;color:var(--quiet);font-size:.85rem;padding:24px}
 @media print{.bar,.toc,.pager,footer{display:none}article{border:0;box-shadow:none;padding:0}}
 
 footer .copy{margin:10px 0 0}
+article img{max-height:640px;width:auto;max-width:100%}
