@@ -63,3 +63,5 @@ article code{background:#f0efea;padding:1px 6px;border-radius:5px;font-size:.9em
 footer{text-align:center;color:var(--quiet);font-size:.85rem;padding:24px}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.toc{display:none}article{padding:24px 20px}}
 @media print{.bar,.toc,.pager,footer{display:none}article{border:0;box-shadow:none;padding:0}}
+
+footer .copy{margin:10px 0 0}
