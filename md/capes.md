@@ -43,6 +43,21 @@ Cada capa apareix com una fila amb la seva **miniatura** i el seu **nombre**. Un
 
 Si no recordes quin botó és quin, deixa el cursor quiet a sobre i Photoshop en mostra el nom.
 
+### Bloquejar una capa: el candau
+
+A la fila **Bloq.** del panell hi ha unes icones petites que serveixen per **bloquejar atributs de la capa**, perquè no es puguin modificar per error:
+
+| Icona | Què bloqueja |
+|---|---|
+| Quadrícula | Els **píxels transparents**: no es pot pintar a les zones buides. |
+| Pinzell | Els **píxels de la imatge**: no es pot pintar ni retocar la capa. |
+| Creu amb fletxes | La **posició**: la capa no es pot moure. |
+| **Candau** | **Tot**: la capa queda completament protegida. |
+
+Un exemple pràctic: si tens activada la **selección automática** amb l'eina **Mover**, en clicar a la imatge Photoshop agafa l'objecte i el pots moure sense voler. Si la capa té el **candau** (o la posició bloquejada), **no es pot moure**, i així no la desplaces per error.
+
+Per això la capa **Fondo** surt amb un candau: Photoshop la protegeix per defecte. Per treure'l, clica al candau.
+
 ## Tipus de capes
 
 No totes les capes són iguals. Les ens apareixen al panell amb una miniatura diferent segons el que contenen:
@@ -95,7 +110,7 @@ Aquestes són les accions que repetirem sempre. Quasi totes es troben al menú *
 | Què vull fer | Com | Drecera (Windows) |
 |---|---|---|
 | **Crear** una capa nova | Botó **Crear una capa nueva** o **Capa > Nueva > Capa** | **Maj + Ctrl + N** |
-| **Duplicar** una capa | Arrossegar-la al botó de nova capa o **Capa > Duplicar capa** | **Ctrl + J** |
+| **Duplicar** una capa | Clic dret sobre la capa > Duplicar capa, o arrossegar-la al botó de nova capa o **Capa > Duplicar capa** | **Ctrl + J** |
 | **Canviar el nom** | Doble clic sobre el nom | — |
 | **Canviar l'ordre** | Arrossegar la capa amunt o avall al panell | — |
 | **Seleccionar** diverses capes | Clic mantenint **Ctrl** (una a una) o **Maj** (un tram) | — |
