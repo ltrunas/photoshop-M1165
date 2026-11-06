@@ -81,7 +81,7 @@ Per navegar fem servir sempre la **Mano**. Si arrossegues amb Mover sense voler,
 | Mostrar o amagar les **guías** | **Ctrl + ;** o **Ctrl + H** | **Cmd + ;** o **Cmd + H** |
 | Obrir o tancar el panell **Capas** | **F7** | **F7** |
 
-Per arrossegar una **guía** a la imatge cal tenir les **reglas** visibles: primer **Ctrl/Cmd + R** i després arrossega des de la regla cap a dins de la imatge. Per eliminar una **guía**, selecciona-la i prem **Suprimir** (**Borrar**).
+Per arrossegar una **guía** a la imatge cal tenir les **reglas** visibles: primer **Ctrl/Cmd + R** i després arrossega des de la regla cap a dins de la imatge. Per eliminar una **guía**, selecciona-la i prem **Suprimir** (**Borrar**). **Ctrl/Cmd + H** amaga o mostra les guíes juntament amb altres extras, però no les esborra: per eliminar-les del tot, usa el menú **Ver > Borrar guías**.
 
 ## Les eines més usades
 
