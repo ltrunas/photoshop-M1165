@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Photoshop · apunts</title><link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script></head>
+<body><header class="site"><div><a href="index.html">Photoshop · M1165</a></div></header>
+<main><p><a href="sessio-6.html">← Sessió 6</a></p><article id="out">Carregant…</article></main>
+<script>
+const p=(new URLSearchParams(location.search).get('p')||'').replace(/[^a-z0-9-]/g,'');
+fetch('md/'+p+'.md').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
+  document.getElementById('out').innerHTML=marked.parse(t);
+  const h=document.querySelector('#out h1'); if(h) document.title=h.textContent+' · Photoshop';
+}).catch(()=>{document.getElementById('out').textContent='No s\'ha trobat aquest apunt.'});
+</script></body></html>
