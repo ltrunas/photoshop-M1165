@@ -35,17 +35,37 @@ Cada capa apareix com una fila amb la seva **miniatura** i el seu **nombre**. Un
 
 ### Els botons de baix del panell
 
+A sota de la llista de capes hi ha una fila de botons per a les accions més usades. A la captura, d'esquerra a dreta:
+
+![Panell Capas amb la fila de botons de baix: filtres, vincular, fx, màscara, ajust, grup, capa nova i paperera](img/panell-capas-botons.png)
+
 | Botó | Què fa |
 |---|---|
-| **Vincular capas** | Uneix capes seleccionades per moure-les juntes. |
+| **Primer botó** (pinzell amb un punt blau) | Accés ràpid a una funció nova d'aquesta versió. Deixa el cursor quiet a sobre per veure'n el nom exacte. |
+| **Vincular capas** (cadena) | Uneix capes seleccionades per moure-les juntes. |
 | **Añadir un estilo de capa** (*fx*) | Afegeix efectes com ombra, contorn o resplendor. |
-| **Añadir máscara de capa** | Crea una màscara per amagar parts d'una capa sense esborrar-les. |
-| **Crear nueva capa de relleno o ajuste** | Crea una capa de ajust (la veurem més endavant). |
-| **Crear un grupo nuevo** | Carpeta per ordenar diverses capes. |
-| **Crear una capa nueva** | Afegeix una capa en blanc. |
-| **Eliminar capa** | Esborra la capa seleccionada (la paperera). |
+| **Añadir máscara de capa** (rectangle amb cercle) | Crea una màscara per amagar parts d'una capa sense esborrar-les. |
+| **Crear nueva capa de relleno o ajuste** (cercle mig ple) | Crea una capa de ajust de llum o color (la veurem més endavant). |
+| **Crear un grupo nuevo** (carpeta) | Carpeta per ordenar diverses capes. |
+| **Crear una capa nueva** (full amb un +) | Afegeix una capa en blanc. |
+| **Eliminar capa** (paperera) | Esborra la capa seleccionada. També pots arrossegar-hi la capa. |
 
 Si no recordes quin botó és quin, deixa el cursor quiet a sobre i Photoshop en mostra el nom.
+
+### Modo de fusión i Opacidad
+
+Són els dos controls de la fila de dalt del panell, i es poden canviar per a cada capa.
+
+- **Modo de fusión** (el desplegable on posa *Normal*): decideix **com es barregen els colors** de la capa amb els de les capes de sota. En *Normal* la capa simplement tapa el que té a sota. Els modes més útils per començar:
+  - **Multiplicar:** enfosqueix; el blanc desapareix. Va bé per a ombres.
+  - **Trama:** aclareix; el negre desapareix. Va bé per a llums i resplendors.
+  - **Superponer** i **Luz suave:** augmenten el contrast i el color de la capa de sota.
+  - **Diferencia:** mostra la diferència entre dues capes.
+  - **Color** i **Luminosidad:** apliquen només el color o només la llum de la capa.
+- **Opacidad** (de 0% a 100%): com de **transparent** és la capa. Amb 100% es veu tota; amb 50% deixa veure el que hi ha a sota; amb 0% és invisible. Pots escriure el valor o arrossegar el petit control lliscant.
+- **Relleno**: semblant a l'opacitat, però no afecta els efectes de la capa (per exemple, una ombra amb *fx* continua sent visible).
+
+**Truc:** amb una eina de selecció o l'eina Mover activa, prem un número per canviar l'opacitat de la capa activa: **5** = 50%, **1** = 10%, **0** = 100%.
 
 ### Bloquejar una capa: el candau
 
