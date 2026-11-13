@@ -10,12 +10,27 @@ Aquesta pàgina és el **repàs del Remuestrear**, que no vam poder treballar a 
 
 ![Comparativa de quatre mètodes d'ampliació de la mateixa imatge petita](img/remuestrear-comparativa.png)
 
-La imatge és un tros petit d'una foto (65 × 49 píxels) **ampliat 6 vegades** amb quatre mètodes. Aquesta comparativa està feta amb un programa de càlcul d'imatges (Python), **no amb Photoshop**: serveix per veure la **idea** de cada mètode. Els mètodes de Photoshop tenen els seus propis noms i algoritmes, i els resultats no seran idèntics.
+La imatge és el **cim d'una muntanya** (36 × 27 píxels, molt petita) **ampliada 10 vegades** amb quatre mètodes. Està feta amb un programa de càlcul d'imatges (Python), **no amb Photoshop**: serveix per veure la **idea** de cada mètode. Els mètodes de Photoshop tenen els seus propis noms i algoritmes, i els resultats no seran idèntics.
 
-- **Por aproximación (bordes definidos):** copia els píxels sense barrejar-los. Es veuen els **quadradets**, però les vores es mantenen dures. Va bé per a icones o píxel art.
-- **Bilineal:** barreja els píxels veïns. El resultat és suau i una mica **borrós**.
-- **Bicúbica:** també suavitza, però manté millor les transicions de to.
-- **Lanczos:** manté més la sensació de **nitidesa** a les vores.
+## 🔍 En què t'has de fixar a cada una
+
+**Fixa't sempre en la mateixa zona: la vora del cim contra el cel.** Allà és on es nota la diferència, perquè hi ha un canvi brusc de fosc a clar.
+
+| Mètode | 👀 Què veus a la vora del cim | 🧠 Què fa |
+|---|---|---|
+| **1. Por aproximación** | **Quadradets** ben marcats, amb les vores dures i esglaonades. No hi ha cap tó intermedi | Copia cada píxel tal qual, sense barrejar |
+| **2. Bilineal** | La vora és **la més borrosa**. El cim perd contrast i els detalls es difuminen | Fa la mitjana dels 4 píxels veïns |
+| **3. Bicúbica** | **Més suau que els quadradets** i amb transicions de to més naturals. La vora és una mica més definida que a la Bilineal | Mira els 16 píxels veïns i fa una mitjana més intel·ligent |
+| **4. Lanczos** | La vora és **la més marcada** i es nota més contrast entre el cim i el cel. Si ampliem molt, pot aparèixer una **aurèola** clara al voltant de les vores | Fa servir encara més píxels veïns i accentua el contrast de les vores |
+
+⚠️ Les diferències entre els mètodes **2, 3 i 4 són subtils**, perquè tots tres suavitzen. Per veure-les, **amplia el dibuix al 200 %** o compara'ls un al costat de l'altre i mira només la vora del cim. La gran diferència és entre el **1** (quadradets) i la resta (suavitzats).
+
+### 📋 Resum
+
+- **Quadradets i vores dures →** *Por aproximación*. Útil per a icones i píxel art.
+- **Suau i una mica borrós →** *Bilineal*.
+- **Suau, equilibrat →** *Bicúbica*.
+- **Més nítid, però amb risc d'aurèoles →** *Lanczos* (a Photoshop s'assembla a **Bicúbica más enfocada**).
 
 La conclusió és que **cap mètode afegeix detall real**. Només canvia la manera de repartir els píxels nous.
 
