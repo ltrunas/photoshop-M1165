@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Calculadora de píxels · Photoshop</title><link rel="stylesheet" href="style.css">
+<style>
+.calc{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px}
+.panel h3{margin:0 0 4px;font-size:1.2rem}.panel p.q{margin:0 0 14px;color:var(--quiet);font-size:.95rem;line-height:1.5}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+label{display:block;font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--quiet);margin-bottom:4px}
+input,select{width:100%;font:inherit;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+input:focus,select:focus{outline:2px solid var(--brand);border-color:var(--brand)}
+.presets{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.presets button{font:inherit;font-size:.88rem;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--tint);color:var(--brand-2);cursor:pointer}
+.presets button:hover{border-color:var(--brand)}
+.res{margin-top:6px;padding:16px;border-radius:12px;background:var(--ok);border:1px solid #bfe3cf}
+.res .big{font-size:1.7rem;font-weight:800;letter-spacing:-.02em;color:var(--brand-2)}
+.res .steps{margin:8px 0 0;font-size:.95rem;color:var(--ink);line-height:1.7}
+.res .steps code{background:#fff;padding:1px 6px;border-radius:6px}
+.res.warn{background:#fff3e8;border-color:#ffd0ae}.res.err{background:#fdecec;border-color:#f3bcbc}
+.tag{display:inline-block;padding:2px 10px;border-radius:999px;font-weight:700;font-size:.9rem}
+.up{background:#ffe3d1;color:#9a3d10}.down{background:#dcefe3;color:#1d6b3f}.eq{background:var(--tint);color:var(--brand-2)}
+.note{color:var(--quiet);font-size:.9rem;margin-top:10px}
+.embed .bar,.embed .hero,.embed footer,.embed .note.top{display:none}.embed{background:transparent}.embed .wrap{padding:4px 2px 8px;max-width:none}</style></head>
+<body><div class="bar"><div class="in"><a class="brand" href="index.html"><span class="logo"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span> Tractament Digital de la Imatge · M1165</a><span class="sp"></span><a class="nav" href="sessio-7.html">Sessió 7</a><a class="nav" href="index.html">Sessions</a></div></div>
+<header class="hero"><div class="in"><span class="eyebrow">M1165 · Sessió 7</span>
+<h1>🧮 Calculadora de píxels</h1>
+<p>Calcula quants píxels necessites i comprova si amplies o redueixes la imatge.</p></div></header>
+<main class="wrap">
+<div class="calc">
+
+<section class="panel">
+<h3>1. Quants píxels necessito?</h3>
+<p class="q">Escriu la mida de l'encàrrec i la resolució. Fórmula: <b>píxels = (cm ÷ 2,54) × ppp</b>.</p>
+<div class="presets" id="presets1">
+<button data-w="1080" data-h="1350" data-u="px" data-r="72">📱 Instagram 4:5</button>
+<button data-w="21" data-h="29.7" data-u="cm" data-r="300">📄 A4 a 300 ppp</button>
+<button data-w="29.7" data-h="42" data-u="cm" data-r="300">📄 A3 a 300 ppp</button>
+<button data-w="50" data-h="70" data-u="cm" data-r="150">🖼️ Pòster 50×70 a 150 ppp</button>
+</div>
+<div class="row"><div><label for="w1">Ample</label><input id="w1" type="number" min="0" step="any" value="21"></div><div><label for="h1">Alçada</label><input id="h1" type="number" min="0" step="any" value="29.7"></div></div>
+<div class="row"><div><label for="u1">Unitat</label><select id="u1"><option value="cm" selected>Centímetres (cm)</option><option value="mm">Mil·límetres (mm)</option><option value="in">Polzades (in)</option><option value="px">Píxels (px)</option></select></div><div><label for="r1">Resolució (ppp)</label><input id="r1" type="number" min="1" step="any" value="300"></div></div>
+<div class="res" id="out1"></div>
+</section>
+
+<section class="panel">
+<h3>2. Amplio o redueixo?</h3>
+<p class="q">Posa els píxels de la teva imatge original i els que necessites. La calculadora retalla amb la <b>proporció</b> de l'encàrrec i et diu què passa.</p>
+<div class="presets"><button id="useA">↙ Copiar la mida calculada a l'apartat 1</button></div>
+<div class="row"><div><label for="sw">Imatge: ample (px)</label><input id="sw" type="number" min="1" step="1" value="2576"></div><div><label for="sh">Imatge: alçada (px)</label><input id="sh" type="number" min="1" step="1" value="1717"></div></div>
+<div class="row"><div><label for="tw">Necessites: ample (px)</label><input id="tw" type="number" min="1" step="1" value="2480"></div><div><label for="th">Necessites: alçada (px)</label><input id="th" type="number" min="1" step="1" value="3508"></div></div>
+<div class="res" id="out2"></div>
+</section>
+
+</div>
+<p class="note">💡 Aquesta calculadora t'ajuda a comprovar els teus càlculs, però <b>al document de justificació has d'escriure els passos</b>. Llegeix també <a href="page.html?p=calcul-pixels">Calcular píxels pas a pas</a> i <a href="page.html?p=remuestrear-repas">Remuestrear: repàs</a>.</p>
+</main>
+<footer><a href="sessio-7.html">← Sessió 7</a><p class="copy">© 2026 Laura Trunas. Tots els drets reservats. Pàgina i apunts elaborats per Laura Trunas.</p></footer>
+<script>
+const $=id=>document.getElementById(id);
+const fmt=(n,d=2)=>Number(n.toFixed(d)).toLocaleString('ca-ES',{maximumFractionDigits:d});
+const UN={cm:'cm',mm:'mm','in':'polzades',px:'px'};
+function toPx(v,u,ppp){ if(u==='px')return v; let inch=u==='cm'?v/2.54:u==='mm'?v/25.4:v; return inch*ppp; }
+function calc1(){
+  const w=parseFloat($('w1').value),h=parseFloat($('h1').value),u=$('u1').value,r=parseFloat($('r1').value),o=$('out1');
+  if(!(w>0&&h>0&&r>0)){o.className='res err';o.innerHTML='Escriu valors més grans que zero.';return null;}
+  const pw=Math.round(toPx(w,u,r)),ph=Math.round(toPx(h,u,r));
+  o.className='res';
+  let steps='';
+  if(u==='px'){steps=`La mida ja és en píxels: no cal calcular res.<br>Resolució: <code>${fmt(r,0)} ppp</code> (a Photoshop, <i>Tamaño de la imagen</i>).`;}
+  else{
+    const f=x=>u==='cm'?`${fmt(x)} ÷ 2,54`:u==='mm'?`${fmt(x)} ÷ 25,4`:`${fmt(x)}`;
+    const iw=u==='cm'?w/2.54:u==='mm'?w/25.4:w, ih=u==='cm'?h/2.54:u==='mm'?h/25.4:h;
+    steps=`<b>Ample:</b> (<code>${f(w)}</code>) × ${fmt(r,0)} = ${fmt(iw)} in × ${fmt(r,0)} = <code>${fmt(iw*r,1)}</code> → <b>${pw} px</b><br><b>Alçada:</b> (<code>${f(h)}</code>) × ${fmt(r,0)} = ${fmt(ih)} in × ${fmt(r,0)} = <code>${fmt(ih*r,1)}</code> → <b>${ph} px</b>`;
+  }
+  o.innerHTML=`<div class="big">${pw} × ${ph} px</div><div class="steps">${steps}</div><div class="note">Proporció aproximada: ${fmt(pw/ph,3)} (amplada ÷ alçada)</div>`;
+  return {pw,ph};
+}
+function calc2(){
+  const sw=parseFloat($('sw').value),sh=parseFloat($('sh').value),tw=parseFloat($('tw').value),th=parseFloat($('th').value),o=$('out2');
+  if(!(sw>0&&sh>0&&tw>0&&th>0)){o.className='res err';o.innerHTML='Escriu valors més grans que zero.';return;}
+  const tr=tw/th; let cw,ch;
+  if(sw/sh>tr){ch=sh;cw=sh*tr;}else{cw=sw;ch=sw/tr;}
+  cw=Math.floor(cw);ch=Math.floor(ch);
+  const sc=tw/cw*100; let cls,txt,adv;
+  if(Math.abs(sc-100)<0.5){cls='eq';txt='Mateixa mida';adv='No cal remuestrear.';}
+  else if(sc>100){cls='up';txt=`Ampliant ${fmt(sc,0)} %`;adv='Photoshop haurà d\'<b>inventar píxels</b>. Activa <b>Remuestrear</b> i tria un mètode d\'ampliació (mira els apunts).';}
+  else{cls='down';txt=`Reduint a ${fmt(sc,0)} %`;adv='No hi ha problema de qualitat. Tria un mètode de <b>reducció</b>.';}
+  const lost=(1-(cw*ch)/(sw*sh))*100;
+  $('out2').className='res'+(sc>100?' warn':'');
+  $('out2').innerHTML=`<div class="big">Retall: ${cw} × ${ch} px</div><div class="steps">Proporció de l'encàrrec: <code>${fmt(tr,3)}</code><br>Retall més gran possible dins la teva imatge: <code>${cw} × ${ch} px</code> (te'n quedes un ${fmt(100-lost,0)} % de la imatge)<br>Després, a <i>Tamaño de la imagen</i>: <code>${cw}</code> → <code>${tw}</code> px<br><span class="tag ${cls}">${txt}</span> ${adv}</div>`;
+}
+function update(){calc1();calc2();}
+document.querySelectorAll('#presets1 button').forEach(b=>b.addEventListener('click',()=>{
+  $('w1').value=b.dataset.w;$('h1').value=b.dataset.h;$('u1').value=b.dataset.u;$('r1').value=b.dataset.r;
+  const r=calc1();if(r){$('tw').value=r.pw;$('th').value=r.ph;}calc2();}));
+$('useA').addEventListener('click',()=>{const r=calc1();if(r){$('tw').value=r.pw;$('th').value=r.ph;}calc2();});
+['w1','h1','u1','r1','sw','sh','tw','th'].forEach(id=>$(id).addEventListener('input',()=>{ if(['w1','h1','u1','r1'].includes(id)){calc1();}calc2();}));
+if(/[?&]embed=1/.test(location.search))document.body.classList.add('embed');
+function sendH(){if(parent!==window)parent.postMessage({calcH:document.documentElement.scrollHeight},'*');}
+addEventListener('load',sendH);addEventListener('resize',sendH);
+document.addEventListener('input',()=>setTimeout(sendH,30));document.addEventListener('click',()=>setTimeout(sendH,30));
+update();sendH();
+</script>
+</body></html>

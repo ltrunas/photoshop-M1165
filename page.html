@@ -4,11 +4,15 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script></head>
 <body><div class="bar"><div class="in"><a class="brand" href="index.html"><span class="logo"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span> Tractament Digital de la Imatge · M1165</a><span class="sp"></span><a class="nav" href="index.html">Sessions</a></div></div>
 <main class="wrap"><div class="layout"><nav class="toc" id="toc"></nav><div><article id="out">Carregant…</article><div class="pager" id="pager"></div></div></div></main>
-<footer><a href="sessio-6.html">← Sessió 6</a><p class="copy">© 2026 Laura Trunas. Tots els drets reservats. Pàgina i apunts elaborats per Laura Trunas.</p></footer>
+<footer><a id="back" href="sessio-6.html">← Sessió 6</a><p class="copy">© 2026 Laura Trunas. Tots els drets reservats. Pàgina i apunts elaborats per Laura Trunas.</p></footer>
 <script>
-const ORDER=[['interficie','Interfície: els menús'],['resolucio','Resolució'],['navegacio-dreceres','Navegació i dreceres'],['capes','Les capes'],['retalls','Retalls bàsics'],['historia','El panell Historia']];
+const ORDER=[['interficie','Interfície: els menús'],['resolucio','Resolució'],['navegacio-dreceres','Navegació i dreceres'],['capes','Les capes'],['retalls','Retalls bàsics'],['historia','El panell Historia'],['remuestrear-repas','Remuestrear: repàs amb comparativa'],['calcul-pixels','Calcular píxels pas a pas']];
 const p=(new URLSearchParams(location.search).get('p')||'').replace(/[^a-z0-9-]/g,'');
 const idx=ORDER.findIndex(o=>o[0]===p);
+const S7=['remuestrear-repas','calcul-pixels'],S8=[];
+if(S7.includes(p)){const b=document.getElementById('back');b.href='sessio-7.html';b.textContent='← Sessió 7';}
+if(S8.includes(p)){const b=document.getElementById('back');b.href='sessio-8.html';b.textContent='← Sessió 8';}
+addEventListener('message',e=>{if(e.data&&e.data.calcH){const f=document.getElementById('calc-frame');if(f)f.style.height=(e.data.calcH+10)+'px';}});
 fetch('md/'+p+'.md').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
   const out=document.getElementById('out');
   out.innerHTML=marked.parse(t);
