@@ -2,7 +2,7 @@
 
 Una **selecció** és una zona de la imatge on actuarà el que facis després (pintar, omplir, aplicar un ajust, esborrar). Una **màscara** és una manera de **amagar parts d'una capa sense esborrar-les**, i per això és **no destructiva**.
 
-## 🧭 El menú Selección
+## <img class="ic" src="svg/ic-compass.svg" alt=""> El menú Selección
 
 Els noms són els del menú de Photoshop en castellà.
 
@@ -21,7 +21,7 @@ Els noms són els del menú de Photoshop en castellà.
 
 ![Menú Selección de Photoshop](img/menu-seleccion.png)
 
-## 🖱️ Les eines de selecció
+## <img class="ic" src="svg/ic-cursor.svg" alt=""> Les eines de selecció
 
 | Eina | Drecera | Per a què serveix |
 |---|---|---|
@@ -42,7 +42,7 @@ A la barra de **opciones** hi ha quatre botons que controlen com es combina una 
 - **Restar de la selección:** treu. Es pot fer amb **Alt** (**Opción**) premut.
 - **Intersección:** es queda només la part comuna.
 
-## ✂️ Retocar una selecció
+## <img class="ic" src="svg/ic-scissors.svg" alt=""> Retocar una selecció
 
 Amb una selecció activa, **Selección > Modificar** permet:
 
@@ -50,7 +50,7 @@ Amb una selecció activa, **Selección > Modificar** permet:
 - **Suavizar** les vores.
 - **Calar** (*feather*): difumina la vora perquè la transició no sigui dura. És important perquè una vora massa dura sembla retallada.
 
-## 🎭 Què és una màscara de capa
+## <img class="ic" src="svg/ic-mask.svg" alt=""> Què és una màscara de capa
 
 Una **màscara de capa** és una imatge en **blanc, negre i grisos** enganxada a una capa. Fixa't en aquest dibuix i en la regla de sota, que és tot el que cal recordar:
 
@@ -66,23 +66,23 @@ Una **màscara de capa** és una imatge en **blanc, negre i grisos** enganxada a
 **Per què és millor que esborrar?** Perquè no es perd cap píxel. Si t'equivoques, pintes de blanc i el que s'havia amagat torna a aparèixer. És el mateix concepte que el retall no destructiu: es pot **rectificar**.
 
 
-### 🔍 Què és l'alpha (α)
+### <img class="ic" src="svg/ic-search.svg" alt=""> Què és l'alpha (α)
 
 **Alpha** (o **canal alfa**) és la **informació de transparència** d'una imatge. En lloc de guardar-la com un color, Photoshop la guarda com una **imatge en escala de grisos** (*grayscale*): un únic canal amb tons que van del **negre al blanc**.
 
-| 🎨 Tó | 👁️ Què vol dir | 🔢 Valor |
+| <img class="ic" src="svg/ic-palette.svg" alt=""> Tó | <img class="ic" src="svg/ic-eye.svg" alt=""> Què vol dir | <img class="ic" src="svg/ic-hash.svg" alt=""> Valor |
 |---|---|---|
-| ⚫ **Negre** | Transparent: **amagat** | 0 % |
-| 🔘 **Gris** | **Mig transparent**: es veu a mitges | entre 0 i 100 % |
-| ⚪ **Blanc** | Opac: **es veu del tot** | 100 % |
+| <img class="ic" src="svg/ic-dot-black.svg" alt=""> **Negre** | Transparent: **amagat** | 0 % |
+| <img class="ic" src="svg/ic-dot-gray.svg" alt=""> **Gris** | **Mig transparent**: es veu a mitges | entre 0 i 100 % |
+| <img class="ic" src="svg/ic-dot-white.svg" alt=""> **Blanc** | Opac: **es veu del tot** | 100 % |
 
 ![L'alpha com a escala de grisos: de negre (amagat) a blanc (es veu), passant pel gris](svg/alpha-grayscale.svg)
 
 Una **màscara de capa** **és** això mateix: un canal alpha enganxat a la capa. Quan veus la màscara en blanc i negre, estàs veient la **transparència** de la capa **representada amb grisos**.
 
-💡 **On el veig?** Obre **Ventana > Canales**. Quan guardes una selecció (**Selección > Guardar selección…**), Photoshop la desa com a canal alpha. També el pots veure amb **Alt** (**Opción** a Mac) + clic a la miniatura de la màscara.
+<img class="ic" src="svg/ic-bulb.svg" alt=""> **On el veig?** Obre **Ventana > Canales**. Quan guardes una selecció (**Selección > Guardar selección…**), Photoshop la desa com a canal alpha. També el pots veure amb **Alt** (**Opción** a Mac) + clic a la miniatura de la màscara.
 
-### 🛠️ Com es crea
+### <img class="ic" src="svg/ic-wrench.svg" alt=""> Com es crea
 
 1. Selecciona la capa al panell **Capas**.
 2. Fes una selecció de la part que vols **mantenir** (per exemple, amb **Selección de objetos** o **Sujeto**).
@@ -90,7 +90,7 @@ Una **màscara de capa** **és** això mateix: un canal alpha enganxat a la capa
 
 També pots fer-ho amb **Capa > Máscara de capa**, que ofereix opcions com *Mostrar todo* i *Ocultar todo*.
 
-### 🖌️ Retocar la màscara amb el pincel
+### <img class="ic" src="svg/ic-brush.svg" alt=""> Retocar la màscara amb el pincel
 
 1. Clica la **miniatura de la màscara** (apareix un marc al voltant). **Si no, pintaràs sobre la imatge!**
 2. Tria el **Pincel** (**B**).
@@ -100,9 +100,9 @@ També pots fer-ho amb **Capa > Máscara de capa**, que ofereix opcions com *Mos
 
 ![La tecla X intercanvia negre i blanc; la tecla D torna als colors per defecte](svg/pincel-x.svg)
 
-🌫️ **Per als grisos:** si vols una transició suau o una transparència a mitges, pinta amb un **pincel de vora suau** (poca **Dureza**) o baixa l'**Opacidad** del pincel a la barra de opciones. Així la màscara guarda tons de gris i la capa es veu a mitges.
+<img class="ic" src="svg/ic-fog.svg" alt=""> **Per als grisos:** si vols una transició suau o una transparència a mitges, pinta amb un **pincel de vora suau** (poca **Dureza**) o baixa l'**Opacidad** del pincel a la barra de opciones. Així la màscara guarda tons de gris i la capa es veu a mitges.
 
-### ⚙️ Altres operacions
+### <img class="ic" src="svg/ic-gear.svg" alt=""> Altres operacions
 
 | Què vols fer | Com |
 |---|---|
@@ -111,7 +111,7 @@ També pots fer-ho amb **Capa > Máscara de capa**, que ofereix opcions com *Mos
 | Moure la imatge sense moure la màscara | Clica la **cadena** entre la capa i la màscara per desvincular-les |
 | Aplicar l'efecte a tot el document | Prova una **capa d'ajust**, que porta màscara |
 
-## 🛍️ Per a què serveix? Un exemple real
+## <img class="ic" src="svg/ic-bag.svg" alt=""> Per a què serveix? Un exemple real
 
 Mira aquestes quatre imatges d'una botiga online. Sembla que hi hagi **quatre fotografies diferents**, però és **la mateixa foto del producte**: només han canviat **el color de les ratlles** i **el cel del fons**.
 
@@ -129,7 +129,7 @@ Com ho podrien haver fet amb Photoshop?
 
 Així no cal tornar a fer la sessió de fotos per cada color. **Això és el que practicarem a la pràctica dels productes.**
 
-## 📌 Per recordar
+## <img class="ic" src="svg/ic-pin.svg" alt=""> Per recordar
 
 - Una **selecció** limita on actua el que fas.
 - Una **màscara** amaga sense esborrar: **blanc = es veu, negre = amagat**.

@@ -6,7 +6,7 @@ Aquesta pàgina és el **repàs del Remuestrear**, que no vam poder treballar a 
 
 **Remuestrear** vol dir que Photoshop **canvia el nombre de píxels** de la imatge. Si n'hi ha més, se n'han d'**inventar** de nous a partir dels que ja hi ha. Això es fa sempre amb un **mètode de càlcul**, i cada mètode dóna un resultat diferent.
 
-## 🏔️ Primer, l'original
+## <img class="ic" src="svg/ic-mountain.svg" alt=""> Primer, l'original
 
 Fem servir una de les fotos de la pràctica. Hem marcat amb un rectangle vermell una zona petita: **el cim d'una muntanya contra el cel**. Aquesta és la zona tal com és, sense tocar-la.
 
@@ -20,24 +20,24 @@ Per simular una imatge de **molt pocs píxels**, reduïm aquesta zona de 360 × 
 
 La imatge és el **cim d'una muntanya** (24 × 18 píxels, molt petita) **ampliada 15 vegades** amb quatre mètodes. Està feta amb un programa de càlcul d'imatges (Python), **no amb Photoshop**: serveix per veure la **idea** de cada mètode. Els mètodes de Photoshop tenen els seus propis noms i algoritmes, i els resultats no seran idèntics.
 
-> 🔎 **Està exagerat a propòsit.** Hem reduït la zona a només 24 × 18 píxels i l'hem ampliat 15 vegades perquè **les diferències es vegin bé**. Amb una foto real i una ampliació normal (per exemple, del 200 %) les diferències són **molt més petites**, però el que passa és el mateix.
+> <img class="ic" src="svg/ic-search.svg" alt=""> **Està exagerat a propòsit.** Hem reduït la zona a només 24 × 18 píxels i l'hem ampliat 15 vegades perquè **les diferències es vegin bé**. Amb una foto real i una ampliació normal (per exemple, del 200 %) les diferències són **molt més petites**, però el que passa és el mateix.
 
 **Cercles vermells:** a cada imatge hem marcat **la zona on has de mirar** (la vora del cim contra el cel) i hem escrit **què hi has de veure**.
 
-## 🔍 En què t'has de fixar a cada una
+## <img class="ic" src="svg/ic-search.svg" alt=""> En què t'has de fixar a cada una
 
 **Fixa't sempre en la mateixa zona: la vora del cim contra el cel.** Allà és on es nota la diferència, perquè hi ha un canvi brusc de fosc a clar.
 
-| Mètode | 👀 Què veus a la vora del cim | 🧠 Què fa |
+| Mètode | <img class="ic" src="svg/ic-eye.svg" alt=""> Què veus a la vora del cim | <img class="ic" src="svg/ic-brain.svg" alt=""> Què fa |
 |---|---|---|
 | **1. Por aproximación** | **Quadradets** ben marcats, amb les vores dures i esglaonades. No hi ha cap tó intermedi | Copia cada píxel tal qual, sense barrejar |
 | **2. Bilineal** | La vora és **la més borrosa**. El cim perd contrast i els detalls es difuminen | Fa la mitjana dels 4 píxels veïns |
 | **3. Bicúbica** | **Més suau que els quadradets** i amb transicions de to més naturals. La vora és més definida que a la Bilineal i es comença a veure una **aurèola clara molt lleugera** al voltant del cim | Mira els 16 píxels veïns i fa una mitjana més intel·ligent |
 | **4. Lanczos** | La vora és **la més marcada** i es nota més contrast entre el cim i el cel. Es nota més l'**aurèola** clara al voltant del cim: la vora es veu més «retallada» | Fa servir encara més píxels veïns i accentua el contrast de les vores |
 
-⚠️ Les diferències entre els mètodes **2, 3 i 4 són subtils**, perquè tots tres suavitzen. Per veure-les, **amplia el dibuix al 200 %** o compara'ls un al costat de l'altre i mira només la vora del cim. La gran diferència és entre el **1** (quadradets) i la resta (suavitzats).
+<img class="ic" src="svg/ic-warning.svg" alt=""> Les diferències entre els mètodes **2, 3 i 4 són subtils**, perquè tots tres suavitzen. Per veure-les, **amplia el dibuix al 200 %** o compara'ls un al costat de l'altre i mira només la vora del cim. La gran diferència és entre el **1** (quadradets) i la resta (suavitzats).
 
-### 📋 Resum
+### <img class="ic" src="svg/ic-clipboard.svg" alt=""> Resum
 
 - **Quadradets i vores dures →** *Por aproximación*. Útil per a icones i píxel art.
 - **Suau i una mica borrós →** *Bilineal*.
@@ -46,7 +46,7 @@ La imatge és el **cim d'una muntanya** (24 × 18 píxels, molt petita) **amplia
 
 La conclusió és que **cap mètode afegeix detall real**. Només canvia la manera de repartir els píxels nous.
 
-## 🪟 On és el Remuestrear a Photoshop
+## <img class="ic" src="svg/ic-window.svg" alt=""> On és el Remuestrear a Photoshop
 
 Ho trobaràs a **Imagen > Tamaño de la imagen** (**Ctrl + Alt + I**, **Cmd + Opción + I** a Mac):
 
@@ -63,7 +63,7 @@ Fixa't en aquestes peces del quadre:
 | **Remuestrear** | La casella. **Activada:** pots canviar els píxels. **Desactivada:** només canvies la mida impresa i els píxels es queden igual |
 | **El desplegable** de Remuestrear | El mètode, amb les dreceres **Opción + 1** a **Opción + 8** (**Alt + 1** a **8** a Windows) |
 
-💡 **Compara amb la teva comparativa:** el **Bilineal** de Photoshop és el mateix concepte que el 2; la **Bicúbica (degradados suaves)** és la família del 3; **Bicúbica más enfocada (reducción)** es posa per reduir, amb la vora marcada; i **Por aproximación (bordes definidos)** és el dels quadradets.
+<img class="ic" src="svg/ic-bulb.svg" alt=""> **Compara amb la teva comparativa:** el **Bilineal** de Photoshop és el mateix concepte que el 2; la **Bicúbica (degradados suaves)** és la família del 3; **Bicúbica más enfocada (reducción)** es posa per reduir, amb la vora marcada; i **Por aproximación (bordes definidos)** és el dels quadradets.
 
 ## Prova-ho tu mateix
 
