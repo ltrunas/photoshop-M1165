@@ -20,6 +20,10 @@ Per simular una imatge de **molt pocs píxels**, reduïm aquesta zona de 360 × 
 
 La imatge és el **cim d'una muntanya** (24 × 18 píxels, molt petita) **ampliada 15 vegades** amb quatre mètodes. Està feta amb un programa de càlcul d'imatges (Python), **no amb Photoshop**: serveix per veure la **idea** de cada mètode. Els mètodes de Photoshop tenen els seus propis noms i algoritmes, i els resultats no seran idèntics.
 
+> 🔎 **Està exagerat a propòsit.** Hem reduït la zona a només 24 × 18 píxels i l'hem ampliat 15 vegades perquè **les diferències es vegin bé**. Amb una foto real i una ampliació normal (per exemple, del 200 %) les diferències són **molt més petites**, però el que passa és el mateix.
+
+**Cercles vermells:** a cada imatge hem marcat **la zona on has de mirar** (la vora del cim contra el cel) i hem escrit **què hi has de veure**.
+
 ## 🔍 En què t'has de fixar a cada una
 
 **Fixa't sempre en la mateixa zona: la vora del cim contra el cel.** Allà és on es nota la diferència, perquè hi ha un canvi brusc de fosc a clar.
