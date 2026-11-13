@@ -34,6 +34,25 @@ La imatge és el **cim d'una muntanya** (36 × 27 píxels, molt petita) **amplia
 
 La conclusió és que **cap mètode afegeix detall real**. Només canvia la manera de repartir els píxels nous.
 
+## 🪟 On és el Remuestrear a Photoshop
+
+Ho trobaràs a **Imagen > Tamaño de la imagen** (**Ctrl + Alt + I**, **Cmd + Opción + I** a Mac):
+
+![Quadre Tamaño de imagen amb la casella Remuestrear i el seu desplegable obert](img/tamany-imatge.png)
+
+Fixa't en aquestes peces del quadre:
+
+| Peça | Què és |
+|---|---|
+| **Dimensiones** | La mida actual en píxels (aquí, 1080 px × 1440 px) |
+| **Anchura** i **Altura** | Els píxels (o cm, polzades…) que vols. Tria la unitat al desplegable del costat: **Píxeles**, **Centímetros**… |
+| **La cadena** (entre Anchura i Altura) | Si és activa, la **proporció** es manté: si canvies l'ample, l'alçada canvia sola. Desactiva-la només si vols deformar |
+| **Resolución** | Els **ppp** (aquí, 72 **Píxeles/pulgada**) |
+| **Remuestrear** | La casella. **Activada:** pots canviar els píxels. **Desactivada:** només canvies la mida impresa i els píxels es queden igual |
+| **El desplegable** de Remuestrear | El mètode, amb les dreceres **Opción + 1** a **Opción + 8** (**Alt + 1** a **8** a Windows) |
+
+💡 **Compara amb la teva comparativa:** el **Bilineal** de Photoshop és el mateix concepte que el 2; la **Bicúbica (degradados suaves)** és la família del 3; **Bicúbica más enfocada (reducción)** es posa per reduir, amb la vora marcada; i **Por aproximación (bordes definidos)** és el dels quadradets.
+
 ## Prova-ho tu mateix
 
 1. Obre una de les imatges de la pràctica i duplica la capa de fons (**Ctrl + J**, **Cmd + J** a Mac).
