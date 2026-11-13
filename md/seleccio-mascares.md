@@ -111,6 +111,24 @@ També pots fer-ho amb **Capa > Máscara de capa**, que ofereix opcions com *Mos
 | Moure la imatge sense moure la màscara | Clica la **cadena** entre la capa i la màscara per desvincular-les |
 | Aplicar l'efecte a tot el document | Prova una **capa d'ajust**, que porta màscara |
 
+## 🛍️ Per a què serveix? Un exemple real
+
+Mira aquestes quatre imatges d'una botiga online. Sembla que hi hagi **quatre fotografies diferents**, però és **la mateixa foto del producte**: només han canviat **el color de les ratlles** i **el cel del fons**.
+
+![Mateixa sabatilla, quatre variants: ratlles fúcsia, platejades, vermelles i negres, amb cels diferents](img/exemple-zalando-variants.png)
+
+*Imatges d'exemple de Zalando.com (© Zalando / Adidas), reproduïdes només amb finalitat educativa.*
+
+Com ho podrien haver fet amb Photoshop?
+
+| Què canvia | Eina |
+|---|---|
+| Les **ratlles** de la sabatilla | **Selección** de les ratlles + capa d'ajust **Tono/Saturación** amb màscara |
+| El **cel** del fons | **Selección > Cielo** + màscara de capa |
+| Provar variants **sense perdre l'original** | Màscares i capes d'ajust (no destructiu) |
+
+Així no cal tornar a fer la sessió de fotos per cada color. **Això és el que practicarem a la pràctica dels productes.**
+
 ## 📌 Per recordar
 
 - Una **selecció** limita on actua el que fas.
