@@ -12,13 +12,13 @@ Fem servir una de les fotos de la pràctica. Hem marcat amb un rectangle vermell
 
 ![Foto original amb la zona marcada en vermell, i aquesta zona ampliada tal com és](img/remuestrear-original.png)
 
-Per simular una imatge de **molt pocs píxels**, reduïm aquesta zona de 360 × 270 a **36 × 27 píxels** (10 vegades més petita). Després la tornem a ampliar **10 vegades** amb cada mètode, i veurem com s'**inventen** els píxels que falten. Compara cada resultat amb l'original de dalt: es veu clar què s'ha perdut.
+Per simular una imatge de **molt pocs píxels**, reduïm aquesta zona de 360 × 270 a **24 × 18 píxels** (15 vegades més petita). Després la tornem a ampliar **15 vegades** amb cada mètode, i veurem com s'**inventen** els píxels que falten. Compara cada resultat amb l'original de dalt: es veu clar què s'ha perdut.
 
 ## Comparativa: el mateix retall ampliat amb mètodes diferents
 
 ![Comparativa de quatre mètodes d'ampliació de la mateixa imatge petita](img/remuestrear-comparativa.png)
 
-La imatge és el **cim d'una muntanya** (36 × 27 píxels, molt petita) **ampliada 10 vegades** amb quatre mètodes. Està feta amb un programa de càlcul d'imatges (Python), **no amb Photoshop**: serveix per veure la **idea** de cada mètode. Els mètodes de Photoshop tenen els seus propis noms i algoritmes, i els resultats no seran idèntics.
+La imatge és el **cim d'una muntanya** (24 × 18 píxels, molt petita) **ampliada 15 vegades** amb quatre mètodes. Està feta amb un programa de càlcul d'imatges (Python), **no amb Photoshop**: serveix per veure la **idea** de cada mètode. Els mètodes de Photoshop tenen els seus propis noms i algoritmes, i els resultats no seran idèntics.
 
 ## 🔍 En què t'has de fixar a cada una
 
@@ -28,8 +28,8 @@ La imatge és el **cim d'una muntanya** (36 × 27 píxels, molt petita) **amplia
 |---|---|---|
 | **1. Por aproximación** | **Quadradets** ben marcats, amb les vores dures i esglaonades. No hi ha cap tó intermedi | Copia cada píxel tal qual, sense barrejar |
 | **2. Bilineal** | La vora és **la més borrosa**. El cim perd contrast i els detalls es difuminen | Fa la mitjana dels 4 píxels veïns |
-| **3. Bicúbica** | **Més suau que els quadradets** i amb transicions de to més naturals. La vora és una mica més definida que a la Bilineal | Mira els 16 píxels veïns i fa una mitjana més intel·ligent |
-| **4. Lanczos** | La vora és **la més marcada** i es nota més contrast entre el cim i el cel. Si ampliem molt, pot aparèixer una **aurèola** clara al voltant de les vores | Fa servir encara més píxels veïns i accentua el contrast de les vores |
+| **3. Bicúbica** | **Més suau que els quadradets** i amb transicions de to més naturals. La vora és més definida que a la Bilineal i es comença a veure una **aurèola clara molt lleugera** al voltant del cim | Mira els 16 píxels veïns i fa una mitjana més intel·ligent |
+| **4. Lanczos** | La vora és **la més marcada** i es nota més contrast entre el cim i el cel. Es nota més l'**aurèola** clara al voltant del cim: la vora es veu més «retallada» | Fa servir encara més píxels veïns i accentua el contrast de les vores |
 
 ⚠️ Les diferències entre els mètodes **2, 3 i 4 són subtils**, perquè tots tres suavitzen. Per veure-les, **amplia el dibuix al 200 %** o compara'ls un al costat de l'altre i mira només la vora del cim. La gran diferència és entre el **1** (quadradets) i la resta (suavitzats).
 
