@@ -27,6 +27,8 @@ Has de calcular l'**ample** i l'**alçada** per separat.
 | Ample | (21 ÷ 2,54) × 300 | ≈ **2480 px** |
 | Alçada | (29,7 ÷ 2,54) × 300 | ≈ **3508 px** |
 
+👉 **Vols comprovar els teus càlculs?** Fes servir la [**calculadora de píxels**](calculadora.html). Et dona el resultat amb els passos i et diu si amplies o redueixes. Primer fes-ho tu a mà.
+
 ## 🪜 Els passos de cada versió
 
 1. **Calcula** la mida final en píxels.
