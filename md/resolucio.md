@@ -145,7 +145,7 @@ Els noms són els del desplegable de Photoshop en castellà. Les dreceres Opció
 | Opció | Per a què serveix | Exemple pràctic |
 |---|---|---|
 | **Automático** | Photoshop tria el mètode segons si ampliem o reduïm | Si no saps quina triar, deixa aquesta |
-| Conservar detalles (ampliación) | Versió anterior de l'opció anterior | La trobaràs en versions antigues o en tutorials antics |
+| Conservar detalles (ampliación) | Versió anterior de l'opció següent (la 2.0) | La trobaràs en versions antigues o en tutorials antics |
 | **Conservar detalles 2.0** | Ampliar fotos conservant vores i detall. Té un control **Reducir ruido** | Una foto de 800 × 1000 píxels que vols passar a 1600 × 2000. Si veus gra, puja el valor de Reducir ruido |
 | **Bicúbica más suavizada (ampliación)** | Ampliar amb transicions suaus i menys esglaons | Ampliar una mica una foto amb un cel amb degradats |
 | **Bicúbica más enfocada (reducción)** | Reduir la mida mantenint la nitidesa | Una foto de càmera de 6000 × 4000 píxels que s'ha de pujar a una web a 1920 píxels d'ample |
