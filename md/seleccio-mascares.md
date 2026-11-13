@@ -2,7 +2,7 @@
 
 Una **selecció** és una zona de la imatge on actuarà el que facis després (pintar, omplir, aplicar un ajust, esborrar). Una **màscara** és una manera de **amagar parts d'una capa sense esborrar-les**, i per això és **no destructiva**.
 
-## El menú Selección
+## 🧭 El menú Selección
 
 Els noms són els del menú de Photoshop en castellà.
 
@@ -21,7 +21,7 @@ Els noms són els del menú de Photoshop en castellà.
 
 ![Menú Selección de Photoshop](img/menu-seleccion.png)
 
-## Les eines de selecció
+## 🖱️ Les eines de selecció
 
 | Eina | Drecera | Per a què serveix |
 |---|---|---|
@@ -33,6 +33,8 @@ Els noms són els del menú de Photoshop en castellà.
 
 ### Sumar, restar i intersecar
 
+![Les quatre maneres de combinar seleccions: Nueva selección, Añadir, Restar i Intersección](svg/seleccio-modes.svg)
+
 A la barra de **opciones** hi ha quatre botons que controlen com es combina una selecció nova amb l'anterior:
 
 - **Nueva selección:** substitueix l'anterior.
@@ -40,7 +42,7 @@ A la barra de **opciones** hi ha quatre botons que controlen com es combina una 
 - **Restar de la selección:** treu. Es pot fer amb **Alt** (**Opción**) premut.
 - **Intersección:** es queda només la part comuna.
 
-## Retocar una selecció
+## ✂️ Retocar una selecció
 
 Amb una selecció activa, **Selección > Modificar** permet:
 
@@ -48,9 +50,12 @@ Amb una selecció activa, **Selección > Modificar** permet:
 - **Suavizar** les vores.
 - **Calar** (*feather*): difumina la vora perquè la transició no sigui dura. És important perquè una vora massa dura sembla retallada.
 
-## Què és una màscara de capa
+## 🎭 Què és una màscara de capa
 
-Una **màscara de capa** és una imatge en **blanc, negre i grisos** enganxada a una capa. Fixa't en aquesta regla, perquè és tot el que cal recordar:
+Una **màscara de capa** és una imatge en **blanc, negre i grisos** enganxada a una capa. Fixa't en aquest dibuix i en la regla de sota, que és tot el que cal recordar:
+
+![Una capa més una màscara dona el resultat: el que és blanc es veu i el que és negre s'amaga](svg/mascara-regla.svg)
+
 
 | Color a la màscara | Què passa a la capa |
 |---|---|
@@ -60,7 +65,24 @@ Una **màscara de capa** és una imatge en **blanc, negre i grisos** enganxada a
 
 **Per què és millor que esborrar?** Perquè no es perd cap píxel. Si t'equivoques, pintes de blanc i el que s'havia amagat torna a aparèixer. És el mateix concepte que el retall no destructiu: es pot **rectificar**.
 
-### Com es crea
+
+### 🔍 Què és l'alpha (α)
+
+**Alpha** (o **canal alfa**) és la **informació de transparència** d'una imatge. En lloc de guardar-la com un color, Photoshop la guarda com una **imatge en escala de grisos** (*grayscale*): un únic canal amb tons que van del **negre al blanc**.
+
+| 🎨 Tó | 👁️ Què vol dir | 🔢 Valor |
+|---|---|---|
+| ⚫ **Negre** | Transparent: **amagat** | 0 % |
+| 🔘 **Gris** | **Mig transparent**: es veu a mitges | entre 0 i 100 % |
+| ⚪ **Blanc** | Opac: **es veu del tot** | 100 % |
+
+![L'alpha com a escala de grisos: de negre (amagat) a blanc (es veu), passant pel gris](svg/alpha-grayscale.svg)
+
+Una **màscara de capa** **és** això mateix: un canal alpha enganxat a la capa. Quan veus la màscara en blanc i negre, estàs veient la **transparència** de la capa **representada amb grisos**.
+
+💡 **On el veig?** Obre **Ventana > Canales**. Quan guardes una selecció (**Selección > Guardar selección…**), Photoshop la desa com a canal alpha. També el pots veure amb **Alt** (**Opción** a Mac) + clic a la miniatura de la màscara.
+
+### 🛠️ Com es crea
 
 1. Selecciona la capa al panell **Capas**.
 2. Fes una selecció de la part que vols **mantenir** (per exemple, amb **Selección de objetos** o **Sujeto**).
@@ -68,14 +90,19 @@ Una **màscara de capa** és una imatge en **blanc, negre i grisos** enganxada a
 
 També pots fer-ho amb **Capa > Máscara de capa**, que ofereix opcions com *Mostrar todo* i *Ocultar todo*.
 
-### Retocar la màscara amb el pinzell
+### 🖌️ Retocar la màscara amb el pincel
 
-1. Clica la **miniatura de la màscara** (apareix un marc al voltant).
+1. Clica la **miniatura de la màscara** (apareix un marc al voltant). **Si no, pintaràs sobre la imatge!**
 2. Tria el **Pincel** (**B**).
-3. Pinta de **negre** per amagar i de **blanc** per tornar a mostrar.
-4. Prem **X** per **intercanviar** negre i blanc, i **D** per tornar als colors per defecte.
+3. Pinta de **negre** per **amagar** i de **blanc** per **tornar a mostrar**.
+4. Prem **X**: **intercanvia** el negre i el blanc. Així **saltes d'un extrem a l'altre de l'escala de grisos** sense anar a la paleta de colors. Pinta, prem X i corregeix, i així tantes vegades com calgui.
+5. Prem **D** per tornar als colors **per defecte** (negre i blanc).
 
-### Altres operacions
+![La tecla X intercanvia negre i blanc; la tecla D torna als colors per defecte](svg/pincel-x.svg)
+
+🌫️ **Per als grisos:** si vols una transició suau o una transparència a mitges, pinta amb un **pincel de vora suau** (poca **Dureza**) o baixa l'**Opacidad** del pincel a la barra de opciones. Així la màscara guarda tons de gris i la capa es veu a mitges.
+
+### ⚙️ Altres operacions
 
 | Què vols fer | Com |
 |---|---|
@@ -84,16 +111,10 @@ També pots fer-ho amb **Capa > Máscara de capa**, que ofereix opcions com *Mos
 | Moure la imatge sense moure la màscara | Clica la **cadena** entre la capa i la màscara per desvincular-les |
 | Aplicar l'efecte a tot el document | Prova una **capa d'ajust**, que porta màscara |
 
-## Exercici de classe (proposta)
-
-1. Obre una foto amb una persona o un objecte clar i duplica la capa de fons.
-2. Selecciona el subjecte amb **Selección > Sujeto** i retoca-ho amb Sumar i Restar.
-3. Crea una màscara de capa i col·loca un **fons nou** a sota.
-4. Arregla les vores amb el **Pincel** en negre i blanc.
-5. Guarda en **PSD** amb les capes i la màscara.
-
-## Per recordar
+## 📌 Per recordar
 
 - Una **selecció** limita on actua el que fas.
 - Una **màscara** amaga sense esborrar: **blanc = es veu, negre = amagat**.
 - Si dubtes, **màscara abans que esborrar**.
+- **Alpha** = la transparència en **escala de grisos**: negre 0 %, gris a mitges, blanc 100 %.
+- Amb el **Pincel** sobre la màscara, **X** intercanvia negre i blanc i **D** torna als colors per defecte.

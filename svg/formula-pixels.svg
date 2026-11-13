@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif' viewBox='0 0 760 250' role='img' aria-label='De centímetres a píxels en tres passos' font-size='13'>
+<defs><marker id='a2' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='7' markerHeight='7' orient='auto'><path d='M0 0 L10 5 L0 10 z' fill='#2f6fdb'/></marker></defs>
+<text x='24' y='30' font-size='15' font-weight='600' fill='#1f2328'>De centímetres a píxels, en tres passos</text>
+<g font-weight='600' text-anchor='middle'>
+<rect x='30' y='56' width='190' height='110' rx='10' fill='#f4f7fe' stroke='#2f6fdb' stroke-width='2'/><text x='125' y='84' fill='#2f6fdb' font-size='22'>1</text><text x='125' y='112' fill='#1f2328'>📏 cm → polzades</text><text x='125' y='136' fill='#5b6470' font-weight='400' font-size='12'>cm ÷ 2,54</text><text x='125' y='154' fill='#5b6470' font-weight='400' font-size='12'>21 ÷ 2,54 = 8,27 in</text>
+<rect x='285' y='56' width='190' height='110' rx='10' fill='#f4f7fe' stroke='#2f6fdb' stroke-width='2'/><text x='380' y='84' fill='#2f6fdb' font-size='22'>2</text><text x='380' y='112' fill='#1f2328'>✖️ × ppp</text><text x='380' y='136' fill='#5b6470' font-weight='400' font-size='12'>polzades × resolució</text><text x='380' y='154' fill='#5b6470' font-weight='400' font-size='12'>8,27 × 300 = 2481</text>
+<rect x='540' y='56' width='190' height='110' rx='10' fill='#fff3f7' stroke='#e0623a' stroke-width='2'/><text x='635' y='84' fill='#e0623a' font-size='22'>3</text><text x='635' y='112' fill='#1f2328'>🔢 píxels</text><text x='635' y='136' fill='#5b6470' font-weight='400' font-size='12'>arrodoneix al nombre enter</text><text x='635' y='154' fill='#5b6470' font-weight='400' font-size='12'>≈ 2480 px d'ample</text>
+</g>
+<line x1='222' y1='111' x2='282' y2='111' stroke='#2f6fdb' stroke-width='3' marker-end='url(#a2)'/><line x1='477' y1='111' x2='537' y2='111' stroke='#2f6fdb' stroke-width='3' marker-end='url(#a2)'/>
+<text x='380' y='206' text-anchor='middle' font-size='15' font-weight='700' fill='#d81b72'>píxels = (cm ÷ 2,54) × ppp</text>
+<text x='380' y='230' text-anchor='middle' fill='#5b6470' font-size='12'>Exemple: l'ample d'un A4 (21 cm) a 300 ppp. Fes el mateix per a l'alçada.</text>
+</svg>

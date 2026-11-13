@@ -1,0 +1,22 @@
+<svg xmlns='http://www.w3.org/2000/svg' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif' viewBox='0 0 760 300' role='img' aria-label='Capa més màscara dona el resultat' font-size='13'>
+<defs>
+<pattern id='ck' width='16' height='16' patternUnits='userSpaceOnUse'><rect width='16' height='16' fill='#fff'/><rect width='8' height='8' fill='#d9dce1'/><rect x='8' y='8' width='8' height='8' fill='#d9dce1'/></pattern>
+<radialGradient id='fe'><stop offset='0.72' stop-color='#fff'/><stop offset='1' stop-color='#000'/></radialGradient>
+<clipPath id='c1'><rect x='30' y='70' width='180' height='180' rx='6'/></clipPath>
+<clipPath id='c3'><rect x='550' y='70' width='180' height='180' rx='6'/></clipPath>
+</defs>
+<text x='24' y='30' font-size='15' font-weight='600' fill='#1f2328'>Màscara de capa: la capa + la màscara = el resultat</text>
+<g clip-path='url(#c1)'><rect x='30' y='70' width='180' height='180' fill='#8fc1f2'/><rect x='30' y='200' width='180' height='50' fill='#6bb36b'/><circle cx='120' cy='150' r='46' fill='#e0623a'/><circle cx='120' cy='150' r='20' fill='#f4b393'/></g>
+<rect x='30' y='70' width='180' height='180' rx='6' fill='none' stroke='#2f6fdb' stroke-width='2'/>
+<text x='120' y='272' text-anchor='middle' font-weight='600' fill='#1f2328'>1. La capa</text>
+<text x='250' y='165' text-anchor='middle' font-size='34' font-weight='700' fill='#2f6fdb'>+</text>
+<rect x='290' y='70' width='180' height='180' rx='6' fill='#000'/><circle cx='380' cy='150' r='58' fill='url(#fe)'/>
+<rect x='290' y='70' width='180' height='180' rx='6' fill='none' stroke='#2f6fdb' stroke-width='2'/>
+<text x='380' y='272' text-anchor='middle' font-weight='600' fill='#1f2328'>2. La màscara</text>
+<text x='510' y='165' text-anchor='middle' font-size='34' font-weight='700' fill='#2f6fdb'>=</text>
+<rect x='550' y='70' width='180' height='180' rx='6' fill='url(#ck)'/>
+<g clip-path='url(#c3)'><circle cx='640' cy='150' r='46' fill='#e0623a'/><circle cx='640' cy='150' r='20' fill='#f4b393'/></g>
+<rect x='550' y='70' width='180' height='180' rx='6' fill='none' stroke='#2f6fdb' stroke-width='2'/>
+<text x='640' y='272' text-anchor='middle' font-weight='600' fill='#1f2328'>3. El resultat</text>
+<g fill='#5b6470' font-size='12'><text x='380' y='290' text-anchor='middle'>Blanc = es veu · Negre = amagat</text><text x='640' y='290' text-anchor='middle'>Tauler = transparent</text></g>
+</svg>

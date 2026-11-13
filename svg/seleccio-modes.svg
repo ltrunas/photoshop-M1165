@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif' viewBox='0 0 760 250' role='img' aria-label='Quatre maneres de combinar seleccions' font-size='13'>
+<defs>
+<clipPath id='ca'><circle cx='0' cy='0' r='38'/></clipPath>
+<mask id='nb'><rect x='-80' y='-60' width='200' height='120' fill='#fff'/><circle cx='34' cy='0' r='38' fill='#000'/></mask>
+</defs>
+<text x='24' y='30' font-size='15' font-weight='600' fill='#1f2328'>Combinar seleccions: la selecció que ja tens (A) i la nova (B)</text>
+<g transform='translate(110,120)'><circle cx='0' cy='0' r='38' fill='none' stroke='#8a8f98' stroke-dasharray='4 3'/><circle cx='34' cy='0' r='38' fill='#2f6fdb' fill-opacity='.55' stroke='#2f6fdb' stroke-width='2'/></g>
+<g transform='translate(290,120)'><circle cx='0' cy='0' r='38' fill='#2f6fdb' fill-opacity='.55' stroke='#2f6fdb' stroke-width='2'/><circle cx='34' cy='0' r='38' fill='#2f6fdb' fill-opacity='.55' stroke='#2f6fdb' stroke-width='2'/><text x='17' y='-56' text-anchor='middle' font-size='24' font-weight='700' fill='#2f6fdb'>+</text></g>
+<g transform='translate(470,120)'><circle cx='0' cy='0' r='38' fill='#2f6fdb' fill-opacity='.55' mask='url(#nb)' stroke='none'/><circle cx='0' cy='0' r='38' fill='none' stroke='#2f6fdb' stroke-width='2'/><circle cx='34' cy='0' r='38' fill='none' stroke='#8a8f98' stroke-dasharray='4 3'/><text x='17' y='-56' text-anchor='middle' font-size='28' font-weight='700' fill='#d33'>−</text></g>
+<g transform='translate(650,120)'><circle cx='34' cy='0' r='38' fill='none' stroke='#8a8f98' stroke-dasharray='4 3'/><circle cx='0' cy='0' r='38' fill='none' stroke='#8a8f98' stroke-dasharray='4 3'/><g clip-path='url(#ca)'><circle cx='34' cy='0' r='38' fill='#2f6fdb' fill-opacity='.7'/></g></g>
+<g text-anchor='middle' fill='#1f2328' font-weight='600'><text x='127' y='190'>Nueva selección</text><text x='307' y='190'>Añadir</text><text x='487' y='190'>Restar</text><text x='667' y='190'>Intersección</text></g>
+<g text-anchor='middle' fill='#5b6470' font-size='12'><text x='127' y='210'>Substitueix l'anterior</text><text x='307' y='210'>Suma · tecla Maj</text><text x='487' y='210'>Treu · tecla Alt/Opción</text><text x='667' y='210'>Només la part comuna</text></g>
+</svg>

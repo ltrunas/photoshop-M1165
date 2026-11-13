@@ -1,6 +1,6 @@
 # Remuestrear: repàs amb comparativa
 
-Aquesta pàgina és el **repàs del Remuestrear**, que no vam poder treballar a la sessió 6. Si has fet la pràctica d'ajustar la imatge, ja l'has fet servir. Aquí el veiem amb exemples.
+Aquesta pàgina és el **repàs del Remuestrear**, que no vam poder treballar a la sessió 6. La necessites per a la **pràctica d'ajustar la imatge**. Llegeix-la abans de començar.
 
 ## La idea en una frase
 
@@ -19,7 +19,7 @@ La imatge és un tros petit d'una foto (65 × 49 píxels) **ampliat 6 vegades** 
 
 La conclusió és que **cap mètode afegeix detall real**. Només canvia la manera de repartir els píxels nous.
 
-## Què fem a classe
+## Prova-ho tu mateix
 
 1. Obre una de les imatges de la pràctica i duplica la capa de fons (**Ctrl + J**, **Cmd + J** a Mac).
 2. Ves a **Imagen > Tamaño de la imagen** (**Ctrl + Alt + I**, **Cmd + Opción + I**).
