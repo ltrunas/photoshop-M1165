@@ -6,6 +6,14 @@ Aquesta pàgina és el **repàs del Remuestrear**, que no vam poder treballar a 
 
 **Remuestrear** vol dir que Photoshop **canvia el nombre de píxels** de la imatge. Si n'hi ha més, se n'han d'**inventar** de nous a partir dels que ja hi ha. Això es fa sempre amb un **mètode de càlcul**, i cada mètode dóna un resultat diferent.
 
+## 🏔️ Primer, l'original
+
+Fem servir una de les fotos de la pràctica. Hem marcat amb un rectangle vermell una zona petita: **el cim d'una muntanya contra el cel**. Aquesta és la zona tal com és, sense tocar-la.
+
+![Foto original amb la zona marcada en vermell, i aquesta zona ampliada tal com és](img/remuestrear-original.png)
+
+Per simular una imatge de **molt pocs píxels**, reduïm aquesta zona de 360 × 270 a **36 × 27 píxels** (10 vegades més petita). Després la tornem a ampliar **10 vegades** amb cada mètode, i veurem com s'**inventen** els píxels que falten. Compara cada resultat amb l'original de dalt: es veu clar què s'ha perdut.
+
 ## Comparativa: el mateix retall ampliat amb mètodes diferents
 
 ![Comparativa de quatre mètodes d'ampliació de la mateixa imatge petita](img/remuestrear-comparativa.png)
