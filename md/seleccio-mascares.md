@@ -70,7 +70,7 @@ Una **màscara de capa** és una imatge en **blanc, negre i grisos** enganxada a
 
 **Alpha** (o **canal alfa**) és la **informació de transparència** d'una imatge. En lloc de guardar-la com un color, Photoshop la guarda com una **imatge en escala de grisos** (*grayscale*): un únic canal amb tons que van del **negre al blanc**.
 
-| <img class="ic" src="svg/ic-palette.svg" alt=""> Tó | <img class="ic" src="svg/ic-eye.svg" alt=""> Què vol dir | <img class="ic" src="svg/ic-hash.svg" alt=""> Valor |
+| <img class="ic" src="svg/ic-palette.svg" alt=""> To | <img class="ic" src="svg/ic-eye.svg" alt=""> Què vol dir | <img class="ic" src="svg/ic-hash.svg" alt=""> Valor |
 |---|---|---|
 | <img class="ic" src="svg/ic-dot-black.svg" alt=""> **Negre** | Transparent: **amagat** | 0 % |
 | <img class="ic" src="svg/ic-dot-gray.svg" alt=""> **Gris** | **Mig transparent**: es veu a mitges | entre 0 i 100 % |
