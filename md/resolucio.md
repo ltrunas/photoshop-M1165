@@ -72,7 +72,7 @@ Algunes idees importants:
 
 - **72 ppp és una convenció**, no una regla de la pantalla: a l'ordinador, la resolución escrita en un fitxer no canvia com es veu. El que es veu són els píxels.
 - **No s'ha d'ampliar una foto petita per imprimir-la.** Si l'amplies afegint píxels (amb Remuestrear activat), Photoshop crea píxels nous a partir dels que hi ha, i la imatge es veu més gran, però no més nítida.
-- **El mode de color també canvia**: RGB per a pantalla, CMYK per a impressió (vegeu el Punt 1, menú Imagen > Modo).
+- **El mode de color també canvia**: RGB per a pantalla, CMYK per a impressió (vegeu la pàgina Interfície, menú Imagen > Modo).
 - Com més píxels té una imatge, més pesa el fitxer.
 
 ## Comparació: 72 ppi i 300 ppi
@@ -165,7 +165,7 @@ Amb Remuestrear, a cada cas:
 
 1. **Pocs píxels i cal que es vegi més gran:** a Tamaño de la imagen, activa Remuestrear, tria **Píxeles** com a unitat, escriu l'Anchura que necessites i tria **Conservar detalles 2.0**. El resultat millora, però amb una ampliació gran no es recupera el detall que no hi era.
 2. **Massa píxels:** Remuestrear activat, Píxeles, Anchura al valor que demani la web i **Bicúbica más enfocada (reducción)**. El fitxer pesa menys i la imatge continua nítida.
-3. **Després:** exporta amb Archivo > Exportar > Exportar como (vegeu el Punt 1).
+3. **Després:** exporta amb Archivo > Exportar > Exportar como (vegeu la pàgina Interfície).
 
 Si pots, **busca una versió original amb més píxels** abans d'ampliar. Ampliar amb Remuestrear és un recurs, no una solució màgica. A més, si vas ampliant i reduint la mateixa imatge una vegada i una altra, aniràs perdent qualitat: treballa sempre a partir de l'original.
 
