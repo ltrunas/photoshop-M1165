@@ -23,7 +23,7 @@ input:focus,select:focus{outline:2px solid var(--brand);border-color:var(--brand
 .embed .bar,.embed .hero,.embed footer,.embed .note.top{display:none}.embed{background:transparent}.embed .wrap{padding:4px 2px 8px;max-width:none}</style></head>
 <body><div class="bar"><div class="in"><a class="brand" href="index.html"><span class="logo"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span> Tractament Digital de la Imatge · M1165</a><span class="sp"></span><a class="nav" href="sessio-7.html">Sessió 7</a><a class="nav" href="index.html">Sessions</a></div></div>
 <header class="hero"><div class="in"><span class="eyebrow">M1165 · Sessió 7</span>
-<h1>🧮 Calculadora de píxels</h1>
+<h1><img class="ic" src="svg/ic-calc.svg" alt=""> Calculadora de píxels</h1>
 <p>Calcula quants píxels necessites i comprova si amplies o redueixes la imatge.</p></div></header>
 <main class="wrap">
 <div class="calc">
@@ -32,10 +32,10 @@ input:focus,select:focus{outline:2px solid var(--brand);border-color:var(--brand
 <h3>1. Quants píxels necessito?</h3>
 <p class="q">Escriu la mida de l'encàrrec i la resolució. Fórmula: <b>píxels = (cm ÷ 2,54) × ppp</b>.</p>
 <div class="presets" id="presets1">
-<button data-w="1080" data-h="1350" data-u="px" data-r="72">📱 Instagram 4:5</button>
-<button data-w="21" data-h="29.7" data-u="cm" data-r="300">📄 A4 a 300 ppp</button>
-<button data-w="29.7" data-h="42" data-u="cm" data-r="300">📄 A3 a 300 ppp</button>
-<button data-w="50" data-h="70" data-u="cm" data-r="150">🖼️ Pòster 50×70 a 150 ppp</button>
+<button data-w="1080" data-h="1350" data-u="px" data-r="72"><img class="ic" src="svg/ic-phone.svg" alt=""> Instagram 4:5</button>
+<button data-w="21" data-h="29.7" data-u="cm" data-r="300"><img class="ic" src="svg/ic-doc.svg" alt=""> A4 a 300 ppp</button>
+<button data-w="29.7" data-h="42" data-u="cm" data-r="300"><img class="ic" src="svg/ic-doc.svg" alt=""> A3 a 300 ppp</button>
+<button data-w="50" data-h="70" data-u="cm" data-r="150"><img class="ic" src="svg/ic-image.svg" alt=""> Pòster 50×70 a 150 ppp</button>
 </div>
 <div class="row"><div><label for="w1">Ample</label><input id="w1" type="number" min="0" step="any" value="21"></div><div><label for="h1">Alçada</label><input id="h1" type="number" min="0" step="any" value="29.7"></div></div>
 <div class="row"><div><label for="u1">Unitat</label><select id="u1"><option value="cm" selected>Centímetres (cm)</option><option value="mm">Mil·límetres (mm)</option><option value="in">Polzades (in)</option><option value="px">Píxels (px)</option></select></div><div><label for="r1">Resolució (ppp)</label><input id="r1" type="number" min="1" step="any" value="300"></div></div>
@@ -45,14 +45,14 @@ input:focus,select:focus{outline:2px solid var(--brand);border-color:var(--brand
 <section class="panel">
 <h3>2. Amplio o redueixo?</h3>
 <p class="q">Posa els píxels de la teva imatge original i els que necessites. La calculadora retalla amb la <b>proporció</b> de l'encàrrec i et diu què passa.</p>
-<div class="presets"><button id="useA">↙ Copiar la mida calculada a l'apartat 1</button></div>
+<div class="presets"><button id="useA"><img class="ic" src="svg/ic-arrow.svg" alt=""> Copiar la mida calculada a l'apartat 1</button></div>
 <div class="row"><div><label for="sw">Imatge: ample (px)</label><input id="sw" type="number" min="1" step="1" value="2576"></div><div><label for="sh">Imatge: alçada (px)</label><input id="sh" type="number" min="1" step="1" value="1717"></div></div>
 <div class="row"><div><label for="tw">Necessites: ample (px)</label><input id="tw" type="number" min="1" step="1" value="2480"></div><div><label for="th">Necessites: alçada (px)</label><input id="th" type="number" min="1" step="1" value="3508"></div></div>
 <div class="res" id="out2"></div>
 </section>
 
 </div>
-<p class="note">💡 Aquesta calculadora t'ajuda a comprovar els teus càlculs, però <b>al document de justificació has d'escriure els passos</b>. Llegeix també <a href="page.html?p=calcul-pixels">Calcular píxels pas a pas</a> i <a href="page.html?p=remuestrear-repas">Remuestrear: repàs</a>.</p>
+<p class="note"><img class="ic" src="svg/ic-bulb.svg" alt=""> Aquesta calculadora t'ajuda a comprovar els teus càlculs, però <b>al document de justificació has d'escriure els passos</b>. Llegeix també <a href="page.html?p=calcul-pixels">Calcular píxels pas a pas</a> i <a href="page.html?p=remuestrear-repas">Remuestrear: repàs</a>.</p>
 </main>
 <footer><a href="sessio-7.html">← Sessió 7</a><p class="copy">© 2026 Laura Trunas. Tots els drets reservats. Pàgina i apunts elaborats per Laura Trunas.</p></footer>
 <script>
