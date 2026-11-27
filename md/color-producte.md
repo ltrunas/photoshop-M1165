@@ -81,6 +81,40 @@ Per corregir-ho, afegeix una capa d'ajust **Niveles** o **Curvas** i **retalla-l
 - Mou el control del mig (els **grisos**) fins que el to s'assembli al codi.
 - Comprova el resultat amb el **Cuentagotas** (**I**): clica sobre la sabata i mira el codi al **Selector de color**.
 
+## <img class="ic" src="svg/ic-mountain.svg" alt=""> Si el color de base és molt fosc: Mapa de degradado
+
+El mode **Color** conserva la **llum** de la foto. Si la sabata original és **negra o molt fosca**, no hi ha llum que conservar: el color nou **gairebé no es veu** i la sabata continua sent negra o gris fosc. Aquí no serveix el **Color sólido + Modo Color**.
+
+En aquest cas fem servir un **Mapa de degradado**: una capa d'ajust que **pinta segons la llum de cada píxel**. Les parts fosques agafen un extrem del degradat i les clares, l'altre. Així es **conserven els reflexos i les ombres**, però amb el color nou.
+
+### Pas a pas
+
+1. Amb la **selecció** de la sabata activa: **Capa > Nueva capa de ajuste > Mapa de degradado…**. La selecció es converteix en la **màscara** de la capa.
+2. Fes **clic sobre la barra del degradat** al panell **Propiedades** per obrir l'**Editor de degradados**.
+3. A la barra hi ha **marcadors de color** (els quadradets de sota). **Doble clic** sobre un marcador per triar-ne el color. Al **Selector de color** escriu el **codi** al camp **#**.
+4. Posa **tres marcadors**: un a **l'esquerra** (0 %) amb una versió **més fosca** del color, un al **mig** amb el **color de marca** (el codi), i un a la **dreta** (100 %) amb una versió **més clara**. Per afegir-ne un, clica **a sota** de la barra.
+5. Accepta amb **OK** i dona un **nom** a la capa (per exemple `color_mostassa`).
+
+| Marcador | Què pinta | Color |
+|---|---|---|
+| **Esquerra** (0 %) | Les ombres | El color de marca **més fosc** |
+| **Mig** | Els tons mitjans | El **codi de marca** |
+| **Dreta** (100 %) | Els reflexos | El color de marca **més clar** |
+
+### Si la sabata continua massa fosca
+
+- **Mou el marcador del mig cap a l'esquerra** (per exemple, al 25 %): així el **codi de marca** apareix també en les zones fosques.
+- **No posis negre pur** a l'esquerra: es perd el detall de les costures i les arrugues.
+- Retoca la **màscara** amb el **Pincel**, igual que amb la capa de color.
+- Si cal, afegeix **Niveles** o **Curvas** retallada a sobre (**Ctrl + Alt + G**, **Cmd + Opción + G**).
+
+### Quan faig servir cada una?
+
+| Si la sabata original és… | Fes servir… |
+|---|---|
+| **Clara o de to mitjà** (vermella, blanca, groga) | **Color sólido + Modo Color** |
+| **Molt fosca** (negra, blau marí fosc) | **Mapa de degradado** |
+
 ## <img class="ic" src="svg/ic-warning.svg" alt=""> Errors freqüents
 
 - **Capa de color sense màscara:** pinta tota la foto.
