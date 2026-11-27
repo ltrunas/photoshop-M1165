@@ -73,19 +73,24 @@ Recorda que el resultat **depèn de la llum de la foto**, així que el color fin
 
 ## <img class="ic" src="svg/ic-palette.svg" alt=""> El color no queda igual que el codi
 
-És normal. El mode **Color** respecta la **llum de la foto**: una sabata molt clara fa que el color quedi massa clar, i una de fosca el fa massa fosc. Es nota sobretot amb la **mostassa** i el **blau marí**.
+És normal. El mode **Color** respecta la **llum de la foto**: una sabata molt clara fa que el color quedi massa clar, i una de fosca el fa massa fosc. Es nota sobretot amb la **mostassa** i el **blau marí**. Tens **dues maneres** de solucionar-ho:
 
-Per corregir-ho, afegeix una capa d'ajust **Niveles** o **Curvas** i **retalla-la** a la capa de color perquè només actuï sobre la sabata:
+- **Opció A:** deixes la capa de **color sólido** i la ajustes amb **Niveles** o **Curvas**.
+- **Opció B:** en comptes de la capa de color sólido, fas servir una capa de **Mapa de degradado** (més avall).
+
+### Opció A: Niveles o Curvas
+
+Afegeix una capa d'ajust **Niveles** o **Curvas** i **retalla-la** a la capa de color perquè només actuï sobre la sabata:
 
 - **Retallar a la capa de sota:** **Ctrl + Alt + G** (Windows) o **Cmd + Opción + G** (Mac).
 - Mou el control del mig (els **grisos**) fins que el to s'assembli al codi.
 - Comprova el resultat amb el **Cuentagotas** (**I**): clica sobre la sabata i mira el codi al **Selector de color**.
 
-## <img class="ic" src="svg/ic-mountain.svg" alt=""> Si el color de base és molt fosc: Mapa de degradado
+## <img class="ic" src="svg/ic-mountain.svg" alt=""> Opció B: Mapa de degradado en comptes del color sólido
 
-El mode **Color** conserva la **llum** de la foto. Si la sabata original és **negra o molt fosca**, no hi ha llum que conservar: el color nou **gairebé no es veu** i la sabata continua sent negra o gris fosc. Aquí no serveix el **Color sólido + Modo Color**.
+El mode **Color** conserva la **llum** de la foto. Si la sabata original és **negra o molt fosca**, no hi ha llum que conservar: el color nou **gairebé no es veu** i la sabata continua sent negra o gris fosc. Aquí el **Color sólido + Modo Color** no funciona bé, i **Niveles** tampoc ho arregla del tot.
 
-En aquest cas fem servir un **Mapa de degradado**: una capa d'ajust que **pinta segons la llum de cada píxel**. Les parts fosques agafen un extrem del degradat i les clares, l'altre. Així es **conserven els reflexos i les ombres**, però amb el color nou.
+En aquest cas (o quan l'opció A no et convenç) **substitueixes la capa de color sólido** per un **Mapa de degradado**: una capa d'ajust que **pinta segons la llum de cada píxel**. Les parts fosques agafen un extrem del degradat i les clares, l'altre. Així es **conserven els reflexos i les ombres**, però amb el color nou.
 
 ### Pas a pas
 
@@ -108,12 +113,12 @@ En aquest cas fem servir un **Mapa de degradado**: una capa d'ajust que **pinta 
 - Retoca la **màscara** amb el **Pincel**, igual que amb la capa de color.
 - Si cal, afegeix **Niveles** o **Curvas** retallada a sobre (**Ctrl + Alt + G**, **Cmd + Opción + G**).
 
-### Quan faig servir cada una?
+### Quina opció faig servir?
 
-| Si la sabata original és… | Fes servir… |
+| Si… | Fes servir… |
 |---|---|
-| **Clara o de to mitjà** (vermella, blanca, groga) | **Color sólido + Modo Color** |
-| **Molt fosca** (negra, blau marí fosc) | **Mapa de degradado** |
+| El color queda bé o només un pèl clar o fosc | **Color sólido + Modo Color** (+ **Niveles** o **Curvas** si cal: opció A) |
+| El color de base és **molt fosc** o no hi ha manera d'ajustar-lo | **Mapa de degradado** en comptes de la capa de color sólido (opció B) |
 
 ## <img class="ic" src="svg/ic-warning.svg" alt=""> Errors freqüents
 
@@ -126,4 +131,4 @@ En aquest cas fem servir un **Mapa de degradado**: una capa d'ajust que **pinta 
 
 - Un color de marca es dona amb un **codi hexadecimal** (**#RRGGBB**).
 - Capa de **Relleno de color sólido** + **Modo Color** + **màscara**.
-- Si el to no coincideix: **Niveles o Curvas retallada**.
+- Si el to no coincideix: **Niveles o Curvas retallada** (opció A) o **Mapa de degradado** en comptes del color sólido (opció B).
