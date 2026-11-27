@@ -82,7 +82,7 @@ Recorda que el resultat **depèn de la llum de la foto**, així que el color fin
 
 Afegeix una capa d'ajust **Niveles** o **Curvas** i **retalla-la** a la capa de color perquè només actuï sobre la sabata:
 
-- **Retallar a la capa de sota:** **Ctrl + Alt + G** (Windows) o **Cmd + Opción + G** (Mac).
+- **Retallar a la capa de sota:** **Ctrl + Alt + G** (Windows) o **Cmd + Opción + G** (Mac). O bé fes **clic dret** sobre la capa d'ajust i tria **Crear máscara de recorte**.
 - Mou el control del mig (els **grisos**) fins que el to s'assembli al codi.
 - Comprova el resultat amb el **Cuentagotas** (**I**): clica sobre la sabata i mira el codi al **Selector de color**.
 
@@ -111,7 +111,7 @@ En aquest cas (o quan l'opció A no et convenç) **substitueixes la capa de colo
 - **Mou el marcador del mig cap a l'esquerra** (per exemple, al 25 %): així el **codi de marca** apareix també en les zones fosques.
 - **No posis negre pur** a l'esquerra: es perd el detall de les costures i les arrugues.
 - Retoca la **màscara** amb el **Pincel**, igual que amb la capa de color.
-- Si cal, afegeix **Niveles** o **Curvas** retallada a sobre (**Ctrl + Alt + G**, **Cmd + Opción + G**).
+- Si cal, afegeix **Niveles** o **Curvas** retallada a sobre (**Ctrl + Alt + G**, **Cmd + Opción + G**, o clic dret > **Crear máscara de recorte**).
 
 ### Quina opció faig servir?
 
