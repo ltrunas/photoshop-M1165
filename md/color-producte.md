@@ -26,9 +26,9 @@ Un color a pantalla es barreja amb **vermell, verd i blau** (RGB). El codi **#1F
 6. Dona un **nom** a la capa (per exemple `color_blau`): doble clic sobre el nom.
 7. Repeteix els passos 3 a 6 amb els altres dos colors. Amaga amb l'**ull** els que no estiguis veient.
 
-Així hauria de quedar la selecció del pas 2: les **formigues** segueixen la vora del cuir i **deixen fora** el fons, la pell i les soles.
+Així hauria de quedar la selecció del pas 2: les **formigues** segueixen la vora del cuir i **deixen fora** el fons, la pell, les soles i **els cordons**. Així el color nou només pinta el cuir i els cordons es queden crema.
 
-![Selecció de la part vermella de les dues sabates, amb les soles i la pell fora](img/seleccio-sabatilles.jpg)
+![Selecció de la part vermella de les dues sabates, amb les soles, la pell i els cordons fora](img/seleccio-sabatilles.jpg)
 
 ## <img class="ic" src="svg/ic-brush.svg" alt=""> Dues maneres de canviar el color
 
