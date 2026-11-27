@@ -1,0 +1,20 @@
+<svg xmlns='http://www.w3.org/2000/svg' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif' viewBox='0 0 760 470' role='img' aria-label='Ordre de capes de la pràctica de les sabatilles' font-size='13'>
+<text x='24' y='30' font-size='15' font-weight='600' fill='#1f2328'>Ordre de capes de la pràctica (de dalt a baix)</text>
+<g font-size='13'>
+<g transform='translate(40,50)'>
+<rect width='330' height='42' rx='6' fill='#D4A017' fill-opacity='0.18' stroke='#D4A017' stroke-width='2'/><text x='14' y='26' font-weight='600' fill='#1f2328'>color_mostassa</text><rect x='256' y='9' width='56' height='24' rx='3' fill='#fff' stroke='#8a8f98'/><text x='284' y='26' text-anchor='middle' font-size='11' fill='#5b6470'>màscara</text>
+<rect y='52' width='330' height='42' rx='6' fill='#2F5D46' fill-opacity='0.18' stroke='#2F5D46' stroke-width='2'/><text x='14' y='78' font-weight='600' fill='#1f2328'>color_verd</text><rect x='256' y='61' width='56' height='24' rx='3' fill='#fff' stroke='#8a8f98'/><text x='284' y='78' text-anchor='middle' font-size='11' fill='#5b6470'>màscara</text>
+<rect y='104' width='330' height='42' rx='6' fill='#1F3A5F' fill-opacity='0.18' stroke='#1F3A5F' stroke-width='2'/><text x='14' y='130' font-weight='600' fill='#1f2328'>color_blau</text><rect x='256' y='113' width='56' height='24' rx='3' fill='#fff' stroke='#8a8f98'/><text x='284' y='130' text-anchor='middle' font-size='11' fill='#5b6470'>màscara</text>
+<rect y='156' width='330' height='42' rx='6' fill='#5b6470' fill-opacity='0.14' stroke='#5b6470' stroke-width='2'/><text x='14' y='182' font-weight='600' fill='#1f2328'>ombra</text><text x='316' y='182' text-anchor='end' font-size='11' fill='#5b6470'>Multiplicar</text>
+<rect y='208' width='330' height='42' rx='6' fill='#e0623a' fill-opacity='0.16' stroke='#e0623a' stroke-width='2'/><text x='14' y='234' font-weight='600' fill='#1f2328'>persona</text><rect x='256' y='217' width='56' height='24' rx='3' fill='#fff' stroke='#8a8f98'/><text x='284' y='234' text-anchor='middle' font-size='11' fill='#5b6470'>màscara</text>
+<rect y='260' width='330' height='42' rx='6' fill='#2f6fdb' fill-opacity='0.14' stroke='#2f6fdb' stroke-width='2'/><text x='14' y='286' font-weight='600' fill='#1f2328'>fons nou</text>
+<rect y='312' width='330' height='42' rx='6' fill='#f0efea' stroke='#8a8f98' stroke-width='1.5'/><text x='14' y='338' font-weight='600' fill='#5b6470'>Fondo (original, intacte)</text>
+</g>
+<g fill='#1f2328'>
+<text x='410' y='96' font-weight='600'>Colors</text><text x='410' y='115' fill='#5b6470' font-size='11.5'>Relleno de color · Modo Color</text><text x='410' y='132' fill='#5b6470' font-size='11.5'>+ Niveles/Curvas retallada</text>
+<text x='410' y='222' font-weight='600'>Ombra</text><text x='410' y='241' fill='#5b6470' font-size='11.5'>Entre la persona i el fons</text>
+<text x='410' y='278' font-weight='600'>Persona</text><text x='410' y='297' fill='#5b6470' font-size='11.5'>Duplicada del Fondo, amb màscara</text>
+<text x='410' y='334' font-weight='600'>Fons nou</text><text x='410' y='353' fill='#5b6470' font-size='11.5'>Colocat incrustat, a sota</text>
+<text x='410' y='390' font-weight='600'>Fondo</text><text x='410' y='409' fill='#5b6470' font-size='11.5'>No es toca mai</text>
+</g></g>
+</svg>

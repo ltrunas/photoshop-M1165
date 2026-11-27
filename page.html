@@ -9,9 +9,11 @@
 const ORDER=[['interficie','Interfície: els menús'],['resolucio','Resolució'],['navegacio-dreceres','Navegació i dreceres'],['capes','Les capes'],['retalls','Retalls bàsics'],['historia','El panell Historia'],['remuestrear-repas','Remuestrear: repàs amb comparativa'],['calcul-pixels','Calcular píxels pas a pas']];
 const p=(new URLSearchParams(location.search).get('p')||'').replace(/[^a-z0-9-]/g,'');
 const idx=ORDER.findIndex(o=>o[0]===p);
-const S7=['remuestrear-repas','calcul-pixels'],S8=[];
+const S7=['remuestrear-repas','calcul-pixels'],S8=['seleccio-mascares'],S9=[['color-producte','Canviar el color d\'un producte'],['canvi-fons-ombra','Canviar el fons i integrar l\'ombra'],['exportar-web-xarxes','Exportar per a web i xarxes socials']];
 if(S7.includes(p)){const b=document.getElementById('back');b.href='sessio-7.html';b.textContent='← Sessió 7';}
 if(S8.includes(p)){const b=document.getElementById('back');b.href='sessio-8.html';b.textContent='← Sessió 8';}
+const i9=S9.findIndex(o=>o[0]===p);
+if(i9>=0){const b=document.getElementById('back');b.href='sessio-9.html';b.textContent='← Sessió 9';}
 addEventListener('message',e=>{if(e.data&&e.data.calcH){const f=document.getElementById('calc-frame');if(f)f.style.height=(e.data.calcH+10)+'px';}});
 fetch('md/'+p+'.md').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
   const out=document.getElementById('out');
@@ -25,6 +27,7 @@ fetch('md/'+p+'.md').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
   let pg='';
   if(idx>0)pg+='<a href="page.html?p='+ORDER[idx-1][0]+'"><small>Anterior</small>'+ORDER[idx-1][1]+'</a>';
   if(idx>=0&&idx<ORDER.length-1)pg+='<a class="next" href="page.html?p='+ORDER[idx+1][0]+'"><small>Següent</small>'+ORDER[idx+1][1]+'</a>';
+  if(i9>=0){if(i9>0)pg+='<a href="page.html?p='+S9[i9-1][0]+'"><small>Anterior</small>'+S9[i9-1][1]+'</a>';if(i9<S9.length-1)pg+='<a class="next" href="page.html?p='+S9[i9+1][0]+'"><small>Següent</small>'+S9[i9+1][1]+'</a>';}
   document.getElementById('pager').innerHTML=pg;
 }).catch(()=>{document.getElementById('out').textContent="No s'ha trobat aquest apunt."});
 </script></body></html>
