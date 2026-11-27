@@ -41,7 +41,23 @@ Passa el mateix amb els **Lazos** (tecla **L**): al mateix botó hi ha el **Pinc
 
 ![Barra d'eines: Pincel de selección, Herramienta Lazo, Herramienta Lazo poligonal i Herramienta Lazo magnético, totes amb la tecla L](img/barra-eines-l.png)
 
-A la barra de la **Selección de objetos** del teu Photoshop també pots veure **Seleccionar sujeto** i **Perfeccionar cabello**, que fan feina automàtica. Comprova'ls a la teva versió, perquè les opcions poden canviar.
+### La barra d'opcions de la Selección de objetos
+
+![Barra d'opcions de la Selección de objetos: els quatre modes, Seleccionar personas, el desplegable Rectángulo/Lazo, Muestrear todas las capas, Borde pronunciado, Seleccionar sujeto i Seleccionar y aplicar máscara](img/barra-opcions-seleccio-objetos.png)
+
+D'esquerra a dreta:
+
+| Opció | Què fa |
+|---|---|
+| **Els 4 quadradets** | Els quatre modes: **nova**, **afegir**, **restar** i **intersecció**. |
+| **Seleccionar personas** | Detecta **totes les persones** de la imatge i les selecciona. |
+| **Desplegable Rectángulo / Lazo** | Tria com **dibuixes la zona** al voltant de l'objecte: amb un **rectangle** o amb un **lazo** a mà alçada. El lazo va millor quan hi ha coses al voltant que no volem. |
+| **Muestrear todas las capas** | Si està activat, l'eina «veu» **totes les capes** juntes i no només la que has seleccionat. |
+| **Borde pronunciado** | Fa la vora de la selecció **més marcada**. Prova-ho activat i desactivat i compara. |
+| **Seleccionar sujeto** | Detecta **sola** la persona o l'objecte principal (és el mateix que **Selección > Sujeto**). |
+| **Seleccionar y aplicar máscara…** | Obre l'espai per **perfeccionar la vora** (vegeu els apunts de «Canviar el fons i integrar l'ombra»). |
+
+Les opcions poden canviar segons la versió de Photoshop. Aquestes són les del nostre programa.
 
 ## <img class="ic" src="svg/ic-scissors.svg" alt=""> Quina tria per a cada cas
 
