@@ -26,6 +26,10 @@ Un color a pantalla es barreja amb **vermell, verd i blau** (RGB). El codi **#1F
 6. Dona un **nom** a la capa (per exemple `color_blau`): doble clic sobre el nom.
 7. Repeteix els passos 3 a 6 amb els altres dos colors. Amaga amb l'**ull** els que no estiguis veient.
 
+Així hauria de quedar la selecció del pas 2: les **formigues** segueixen la vora del cuir i **deixen fora** el fons, la pell i les soles.
+
+![Selecció de la part vermella de les dues sabates, amb les soles i la pell fora](img/seleccio-sabatilles.jpg)
+
 ## <img class="ic" src="svg/ic-brush.svg" alt=""> Dues maneres de canviar el color
 
 Hi ha dues maneres de pintar de color una sabata. Totes dues fan servir una **capa d'ajust amb màscara**, però no donen el mateix resultat.

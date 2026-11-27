@@ -21,14 +21,20 @@ Truc: **comença a fer la selecció** i prem **Maj** o **Alt** **abans de clicar
 |---|---|---|---|
 | **Marco rectangular / elíptico** | **M** | Formes geomètriques: quadrats, rectangles, cercles. | **Calar** (vora difuminada). **Maj** = quadrat o cercle; **Alt** = des del centre. |
 | **Lazo** | **L** | Seleccions **a mà alçada**. | **Calar**, **Suavizado**. |
-| **Lazo poligonal** | **L** (repeteix) | Formes amb **costats rectes**: clicant punts. | Doble clic per tancar. |
-| **Lazo magnético** | **L** (repeteix) | Vores amb **molt contrast**: s'enganxa sola a la vora. | **Anchura**, **Contraste**, **Frecuencia**. |
-| **Varita mágica** | **W** (repeteix) | Zones d'un **color semblant** (fons llisos). | **Tolerancia** (com de semblant), **Contiguo**, **Muestrear todas las capas**. |
-| **Selección rápida** | **W** (repeteix) | Pintar per sobre d'una zona i que **creixi sola** fins a la vora. | Mida del pinzell, **Muestrear todas las capas**. |
+| **Lazo poligonal** | **Maj + L** | Formes amb **costats rectes**: clicant punts. | Doble clic per tancar. |
+| **Lazo magnético** | **Maj + L** | Vores amb **molt contrast**: s'enganxa sola a la vora. | **Anchura**, **Contraste**, **Frecuencia**. |
+| **Varita mágica** | **Maj + W** | Zones d'un **color semblant** (fons llisos). | **Tolerancia** (com de semblant), **Contiguo**, **Muestrear todas las capas**. |
+| **Selección rápida** | **Maj + W** | Pintar per sobre d'una zona i que **creixi sola** fins a la vora. | Mida del pinzell, **Muestrear todas las capas**. |
 | **Selección de objetos** | **W** | Un **objecte o persona**: dibuixes un rectangle o un lazo al voltant. | **Modo**: **Rectángulo** o **Lazo**; **Muestrear todas las capas**. |
 | **Selección > Sujeto** | — | Detecta **sola** la persona o l'objecte principal. | Es perfecciona després. |
 | **Selección > Cielo** | — | Detecta **sola** el cel. | Es perfecciona després. |
 | **Selección > Rango de color…** | — | Tria **per color**: clicant a la imatge els tons que vols. | **Difuminación** (quin marge accepta). Va molt bé amb colors saturats, com una sabata vermella. |
+
+### Eines agrupades
+
+Algunes eines **comparteixen lloc** a la barra d'eines. Per exemple, **Selección de objetos**, **Selección rápida** i **Varita mágica** són al mateix botó i totes tres tenen la drecera **W**. **Mantén clicat** el botó per veure-les totes, o prem **Maj + W** per canviar d'una a l'altra.
+
+![Barra d'eines: Herramienta Selección de objetos, Herramienta Selección rápida i Herramienta Varita mágica, totes amb la tecla W](img/barra-eines-w.png)
 
 A la barra de la **Selección de objetos** del teu Photoshop també pots veure **Seleccionar sujeto** i **Perfeccionar cabello**, que fan feina automàtica. Comprova'ls a la teva versió, perquè les opcions poden canviar.
 
